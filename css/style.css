@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&family=Bree+Serif&family=Libre+Franklin:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: #fafafa;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav ul .nombre {
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  color: #6a49e4;
+  text-align: center;
+  line-height: 30px;
+}
+
+.nav ul .nombre p {
+  font-size: 20px;
+  font-family: 'roboto';
+  font-weight: 300;
+}
+
+.nav ul .nombre h2 {
+  font-size: 30px;
+}
+
+.nav ul .item5 {
+  border-top: 5px solid #b5a4f4;
+}
+
+.nav ul li {
+  padding: 31px;
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #353535;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 500;
+}
