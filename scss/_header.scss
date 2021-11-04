@@ -1,0 +1,49 @@
+.header_preguntas {
+    width: 100%;
+    min-height: 95vh;
+    background-image: url(../img/pregunta_frecuente.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .titulo_header{
+        text-align: center;
+        z-index: 1;
+        h1{
+            color: $fondo;
+            left:50%;
+            top: 50%;
+            font-family: $LibreFranklin;
+            font-weight: 400;
+            font-size: 3em;
+
+        }
+    }
+    button {
+        z-index: 1;
+        cursor: pointer;
+        width: 15%;
+        height: 50px;
+        margin-top: 50px;
+        background-color: transparent;
+        box-shadow: none;
+        border:solid $fondo 3px;
+        font-family: $LibreFranklin;
+        font-weight: 400;
+        font-size: 1.3em;
+        color: $fondo;
+    }
+    
+    
+}
+.header_preguntas::before {
+    content: '';
+    width: 100%;
+    min-height: 95vh;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    opacity: .3;
+}
