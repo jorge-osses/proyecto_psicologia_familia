@@ -5,24 +5,26 @@
         align-items: center;
         justify-content: space-around;
         .nombre{
-            font-family: $aleo;
-            font-weight: 400;
             color: $acentuacion;
             text-align: center;
             line-height: 30px;
             p{
                 font-size: 20px;
                 font-family: 'roboto';
-                font-weight: 300;
+                font-weight: 200;
+                letter-spacing: 5px;
             }
             h2{
+                font-family: $aleo;
                 font-size: 30px;
+                font-weight: 400;
             }
         }
         .active{
             border-top: 5px solid $lilaPpal;
         }
         li{
+            height: 100%;
             padding: 31px;
             list-style: none;
             a {
@@ -30,6 +32,7 @@
                 color: $gris;
                 font-family: $LibreFranklin;
                 font-weight: 500;
+                font-size: 20px;
             }
         }
     }
