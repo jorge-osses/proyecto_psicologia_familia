@@ -7,6 +7,8 @@
     &:checked ~ .acordeon__contenido {
         height: auto;
         margin: 15px 0;
+        padding: 2%;
+
     }
 }
 .acordeon__titulo{
@@ -17,7 +19,8 @@
     font-size: 20px;
     border-top: 1px #B5A4F44D solid;
     i{
-        color: black;
+        color: $gris;
+        float: right;
     }
     &:hover {
         cursor: pointer;
