@@ -1,0 +1,40 @@
+.acordeon {
+    margin-bottom: 100px;
+
+}
+.acordeon input{
+    display: none;
+    &:checked ~ .acordeon__contenido {
+        height: auto;
+        margin: 15px 0;
+        padding: 2%;
+
+    }
+}
+.acordeon__titulo{
+    display: block;
+    font-family: $LibreFranklin;
+    font-weight: 400;
+    padding: 15px;
+    font-size: 20px;
+    border-top: 1px #B5A4F44D solid;
+    i{
+        color: $gris;
+        float: right;
+    }
+    &:hover {
+        cursor: pointer;
+        border: 2px solid $lilaPpal;
+    }
+}
+.acordeon__contenido {
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    font-family: $LibreFranklin;
+    text-align: justify;
+    transition: all 0.5s;
+}
+.borderBottom{
+    border-bottom: 1px #B5A4F44D solid;
+}
