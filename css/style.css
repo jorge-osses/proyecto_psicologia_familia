@@ -81,10 +81,90 @@ html {
 
 .img100 {
   width: 100%;
+  height: 120vh;
   position: relative;
 }
 
+<<<<<<< HEAD
 .headerPreguntasFrec {
+=======
+.contenedorIntro {
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: translateY(200px);
+          transform: translateY(200px);
+}
+
+.tituloIndex {
+  font-family: "Libre Franklin", sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.subtituloIndex {
+  font-family: "Libre Franklin", sans-serif;
+  color: #fff;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 3.8rem;
+  font-weight: 600;
+  margin-left: 10%;
+}
+
+.mrgB {
+  margin-top: 15%;
+}
+
+.contenedorHeaderIndex {
+  margin: 0 15%;
+}
+
+.tituloHeaderIndex {
+  font-family: "Aleo", serif;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #6a49e4;
+  margin-top: 10%;
+}
+
+.subtituloHeaderIndex {
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 2%;
+}
+
+.contenedorListaHeaderIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5%;
+}
+
+.imgHeaderIndex {
+  width: 30%;
+}
+
+.listaHeaderIndex div {
+  margin: 5% 15% 5% 0%;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.header_preguntas {
+>>>>>>> bb6c659c9ffb1e00a58dc822ebe6c6c7fe4853fb
   width: 100%;
   min-height: 95vh;
   background-image: url(../img/pregunta_frecuente.png);
@@ -242,6 +322,7 @@ html {
 .borderBottom {
   border-bottom: 1px #B5A4F44D solid;
 }
+<<<<<<< HEAD
 
 .tarjetaContactoPregFrec {
   z-index: 10;
@@ -315,3 +396,6 @@ html {
 .tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a {
   margin: 10px;
 }
+=======
+/*# sourceMappingURL=style.css.map */
+>>>>>>> bb6c659c9ffb1e00a58dc822ebe6c6c7fe4853fb
