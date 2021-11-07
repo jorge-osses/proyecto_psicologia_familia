@@ -50,27 +50,39 @@
 }
 
 //==========Main===========//
+.path{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        margin: 50px 0;
+    }
+}
 .mainPreguntasFrec{
     width: 75%;
     margin: 0 auto;
+    position: relative;
     .main_title {
         display: flex;
         flex-direction: column;
         align-items: center;
-        img {
-            margin: 80px 0 20px 0;
-        }
         h2{
             color: $acentuacion;
-            margin-bottom: 130px;
+            font-family: $aleo;
+            font-weight: 400;
+            font-size: 30px;
+            margin-bottom: 100px;
         }
     }
 }
 .fondo_main{
-    float: right;
-    position: relative;
+    position:absolute;
+    right: -25%; 
+    bottom:-50%; 
+    z-index: -1;
 }
 .acordeon {
+    padding:10% ;
     margin-bottom: 100px;
 
 }
@@ -109,4 +121,53 @@
 }
 .borderBottom{
     border-bottom: 1px #B5A4F44D solid;
+}
+//=========Tarjeta contacto=========//
+.tarjetaContactoPregFrec{
+    z-index: 10;
+    width: 100%;
+    height: auto;
+    display: flex;
+    div{
+        text-align: center;
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+    .datosDeContactoPregFrec{
+        background-color: $fondo;
+        border: $lilaPpal 2px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h3{
+            margin-bottom: 10%;
+            font-family: $aleo;
+            font-weight: 400;
+            font-size: 25px;
+            color: $acentuacion;
+        }
+        ul{
+            list-style: none;
+            li{
+                font-family: $LibreFranklin;
+                font-weight: 300;
+                font-size: 18px;
+                margin: 5%;
+                a{
+                    text-decoration: none;
+                    color: inherit;
+                }
+            }
+            .itemContacto4{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a{
+                    margin:10px;
+                }
+            }
+        }
+    }
 }

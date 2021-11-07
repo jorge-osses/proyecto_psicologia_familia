@@ -54,7 +54,7 @@ html{
             }
         }
         .active{
-            border-top: 5px solid $lilaPpal;
+            border-top: 10px solid $lilaPpal;
         }
         li{
             height: 100%;
@@ -75,5 +75,4 @@ html{
 
 
 @import "index";
-@import "header";
 @import "preguntasFrecuentes";

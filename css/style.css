@@ -45,7 +45,7 @@ html {
 }
 
 .nav ul .active {
-  border-top: 5px solid #b5a4f4;
+  border-top: 10px solid #b5a4f4;
 }
 
 .nav ul li {
@@ -145,20 +145,10 @@ html {
   opacity: .3;
 }
 
-.headerPreguntasFrec {
-  width: 100%;
-  min-height: 95vh;
-  background-image: url(../img/pregunta_frecuente.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.path {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -167,48 +157,14 @@ html {
           justify-content: center;
 }
 
-.headerPreguntasFrec .tituloHeaderPreguntasFrec {
-  text-align: center;
-  z-index: 1;
-}
-
-.headerPreguntasFrec .tituloHeaderPreguntasFrec h1 {
-  color: #fafafa;
-  left: 50%;
-  top: 50%;
-  font-family: "Libre Franklin", sans-serif;
-  font-weight: 400;
-  font-size: 3em;
-}
-
-.headerPreguntasFrec .botonHeaderPreguntasFrec {
-  z-index: 1;
-  cursor: pointer;
-  width: 15%;
-  height: 50px;
-  margin-top: 50px;
-  background-color: transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: solid #fafafa 3px;
-  font-family: "Libre Franklin", sans-serif;
-  font-weight: 400;
-  font-size: 1.3em;
-  color: #fafafa;
-}
-
-.headerPreguntasFrec::before {
-  content: '';
-  width: 100%;
-  min-height: 95vh;
-  position: absolute;
-  background: black;
-  opacity: .3;
+.path img {
+  margin: 50px 0;
 }
 
 .mainPreguntasFrec {
   width: 75%;
   margin: 0 auto;
+  position: relative;
 }
 
 .mainPreguntasFrec .main_title {
@@ -224,21 +180,23 @@ html {
           align-items: center;
 }
 
-.mainPreguntasFrec .main_title img {
-  margin: 80px 0 20px 0;
-}
-
 .mainPreguntasFrec .main_title h2 {
   color: #6a49e4;
-  margin-bottom: 130px;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 100px;
 }
 
 .fondo_main {
-  float: right;
-  position: relative;
+  position: absolute;
+  right: -25%;
+  bottom: -50%;
+  z-index: -1;
 }
 
 .acordeon {
+  padding: 10%;
   margin-bottom: 100px;
 }
 
@@ -283,4 +241,77 @@ html {
 
 .borderBottom {
   border-bottom: 1px #B5A4F44D solid;
+}
+
+.tarjetaContactoPregFrec {
+  z-index: 10;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tarjetaContactoPregFrec div {
+  text-align: center;
+  width: 50%;
+}
+
+.tarjetaContactoPregFrec div img {
+  width: 100%;
+}
+
+.tarjetaContactoPregFrec .datosDeContactoPregFrec {
+  background-color: #fafafa;
+  border: #b5a4f4 2px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tarjetaContactoPregFrec .datosDeContactoPregFrec h3 {
+  margin-bottom: 10%;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #6a49e4;
+}
+
+.tarjetaContactoPregFrec .datosDeContactoPregFrec ul {
+  list-style: none;
+}
+
+.tarjetaContactoPregFrec .datosDeContactoPregFrec ul li {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 5%;
+}
+
+.tarjetaContactoPregFrec .datosDeContactoPregFrec ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a {
+  margin: 10px;
 }
