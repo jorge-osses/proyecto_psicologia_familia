@@ -75,18 +75,18 @@
         }
     }
 }
-.fondo_main{
+.fondoMainPregFrec{
     position:absolute;
     right: -25%; 
     bottom:-50%; 
     z-index: -1;
 }
-.acordeon {
+.acordeonPregFrec {
     padding:10% ;
     margin-bottom: 100px;
 
 }
-.acordeon input{
+.acordeonPregFrec input{
     display: none;
     &:checked ~ .acordeon__contenido {
         height: auto;
