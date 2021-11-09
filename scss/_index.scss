@@ -86,3 +86,45 @@
     margin: 5% 15% 5% 0%;
     font-family: $LibreFranklin;
 }
+
+//-------------- carrusel ---------------------
+.contenedorCarrusel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgChica{
+    width: 55%;
+}
+
+.imgGrande{
+    width: 70%;
+}
+
+.flechaCarrusel{
+    font-size: 3rem;
+    color: $lilaPpal;
+    margin: 0 5%;
+}
