@@ -160,8 +160,13 @@ html {
   font-family: "Libre Franklin", sans-serif;
 }
 
+.bodyPreguntasFrecuentes {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .headerPreguntasFrec {
-  width: 100%;
+  width: 100vw;
   min-height: 95vh;
   background-image: url(../img/pregunta_frecuente.png);
   background-repeat: no-repeat;
@@ -214,7 +219,7 @@ html {
 
 .headerPreguntasFrec::before {
   content: '';
-  width: 100%;
+  width: 100vw;
   min-height: 95vh;
   position: absolute;
   background: black;
@@ -266,8 +271,8 @@ html {
 
 .fondoMainPregFrec {
   position: absolute;
-  right: -25%;
-  bottom: -50%;
+  right: -15%;
+  bottom: -60%;
   z-index: -1;
 }
 
@@ -321,7 +326,7 @@ html {
 
 .tarjetaContactoPregFrec {
   z-index: 10;
-  width: 100%;
+  width: 100vw;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -330,11 +335,12 @@ html {
 
 .tarjetaContactoPregFrec div {
   text-align: center;
-  width: 50%;
+  width: 49.37%;
 }
 
 .tarjetaContactoPregFrec div img {
   width: 100%;
+  height: 100%;
 }
 
 .tarjetaContactoPregFrec .datosDeContactoPregFrec {
@@ -390,4 +396,77 @@ html {
 
 .tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a {
   margin: 10px;
+}
+
+.footerPreguntasFrecuentes {
+  background-color: #b5a4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fafafa;
+}
+
+.footerPreguntasFrecuentes .bar {
+  padding: 30px;
+}
+
+.footerPreguntasFrecuentes .bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerPreguntasFrecuentes .bar ul .item {
+  list-style: none;
+}
+
+.footerPreguntasFrecuentes .bar ul .item a {
+  text-decoration: none;
+  color: #fafafa;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footerPreguntasFrecuentes .bar ul .nombreFooter {
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 20px;
+  list-style: none;
+}
+
+.footerPreguntasFrecuentes .bar ul .nombreFooter p {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+}
+
+.footerPreguntasFrecuentes .footerContent .izq {
+  float: left;
+  width: 15%;
+  padding-left: 30px;
+}
+
+.footerPreguntasFrecuentes .footerContent .der {
+  float: right;
+  width: 10%;
+  padding-right: 10px;
+}
+
+.footerPreguntasFrecuentes .copyright {
+  margin-top: 60px;
+  padding: 30px;
+  text-align: center;
 }
