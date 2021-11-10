@@ -1,0 +1,66 @@
+.headerContacto {
+    width: 100%;
+    min-height: 110vh;
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .tituloHeaderContacto{
+        text-align: center;
+        z-index: 1;
+        h1{
+            color: $fondo;
+            left:50%;
+            top: 50%;
+            font-family: $LibreFranklin;
+            font-weight: 400;
+            font-size: 3em;
+
+        }
+    }
+    .botonHeaderContacto {
+        z-index: 1;
+        cursor: pointer;
+        width: 15%;
+        height: 50px;
+        margin-top: 50px;
+        background-color: transparent;
+        box-shadow: none;
+        border:solid $fondo 3px;
+        font-family: $LibreFranklin;
+        font-weight: 400;
+        font-size: 1.3em;
+        color: $fondo;
+    }
+    
+    
+}
+.headerContacto:before {
+    content: '';
+    width: 100%;
+    min-height: 110vh;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    opacity: .3;
+}
+.formularioContacto{
+    position: relative;
+    margin: 50px 0 200px;
+    padding: 10px;
+    height: 100vh;
+    fieldset{
+        border: solid 3px $acentuacion;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        input{
+            margin: 20px;
+            padding: 10px;
+            width: 40%;
+        }
+    }
+}
