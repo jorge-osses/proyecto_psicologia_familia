@@ -289,6 +289,7 @@ html {
 
 .headerPreguntasFrec::before {
   content: '';
+  width: 100%;
   min-height: 95vh;
   position: absolute;
   background: black;
@@ -340,8 +341,8 @@ html {
 
 .fondoMainPregFrec {
   position: absolute;
-  right: -15%;
-  bottom: -60%;
+  right: -16.7%;
+  bottom: -70%;
   z-index: -1;
 }
 
@@ -403,7 +404,7 @@ html {
 
 .tarjetaContactoPregFrec div {
   text-align: center;
-  width: 49.37%;
+  width: 50%;
 }
 
 .tarjetaContactoPregFrec div img {
@@ -479,7 +480,7 @@ html {
 }
 
 .footerPreguntasFrecuentes .bar {
-  padding: 30px 0;
+  padding-top: 50px;
 }
 
 .footerPreguntasFrecuentes .bar ul {
@@ -514,27 +515,137 @@ html {
 }
 
 .footerPreguntasFrecuentes .bar ul .nombreFooter p {
-  font-family: 'Roboto';
+  font-family: sans-serif;
   font-weight: 300;
   font-size: 15px;
   text-align: center;
+  letter-spacing: 5px;
 }
 
 .footerPreguntasFrecuentes .footerContent .izq {
   float: left;
   width: 15%;
-  padding-left: 30px;
+  padding-left: 50px;
+  margin-top: 50px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .footerPreguntasFrecuentes .footerContent .der {
   float: right;
-  width: 10%;
-  padding-right: 10px;
+  width: 11%;
+}
+
+.footerPreguntasFrecuentes .footerContent .der ul {
+  list-style: none;
+}
+
+.footerPreguntasFrecuentes .footerContent .der ul li {
+  line-height: 2em;
+  font-size: 18px;
+}
+
+.footerPreguntasFrecuentes .footerContent .der ul li a {
+  margin-right: 5px;
+  text-decoration: none;
+  color: #fafafa;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+}
+
+.footerPreguntasFrecuentes .footerContent .der ul li a i {
+  font-size: 18pt;
+  letter-spacing: 9px;
 }
 
 .footerPreguntasFrecuentes .copyright {
-  margin-top: 60px;
   padding: 30px;
   text-align: center;
 }
-/*# sourceMappingURL=style.css.map */
+
+.headerContacto {
+  width: 100%;
+  min-height: 110vh;
+  background-image: url(../img/contacto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerContacto .tituloHeaderContacto {
+  text-align: center;
+  z-index: 1;
+}
+
+.headerContacto .tituloHeaderContacto h1 {
+  color: #fafafa;
+  left: 50%;
+  top: 50%;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 3em;
+}
+
+.headerContacto .botonHeaderContacto {
+  z-index: 1;
+  cursor: pointer;
+  width: 15%;
+  height: 50px;
+  margin-top: 50px;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: solid #fafafa 3px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #fafafa;
+}
+
+.headerContacto:before {
+  content: '';
+  width: 100%;
+  min-height: 110vh;
+  position: absolute;
+  background: black;
+  opacity: .3;
+}
+
+.formularioContacto {
+  position: relative;
+  margin: 50px 0 200px;
+  padding: 10px;
+  height: 100vh;
+}
+
+.formularioContacto fieldset {
+  border: solid 3px #6a49e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.formularioContacto fieldset input {
+  margin: 20px;
+  padding: 10px;
+  width: 40%;
+}
