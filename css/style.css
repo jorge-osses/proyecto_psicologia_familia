@@ -625,15 +625,36 @@ html {
   opacity: .3;
 }
 
-.formularioContacto {
+#mainContacto {
+  width: 100%;
   position: relative;
-  margin: 50px 0 200px;
-  padding: 10px;
-  height: 100vh;
+  min-height: 120vh;
 }
 
-.formularioContacto fieldset {
-  border: solid 3px #6a49e4;
+#mainContacto .fondoMainContacto {
+  position: absolute;
+  right: 0%;
+  bottom: -50%;
+  z-index: -1;
+}
+
+.contenedorformulario {
+  border: solid 2px #6a49e4;
+  height: 80vh;
+  width: 85%;
+  margin: auto;
+}
+
+.contenedorformulario p {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 23PX;
+  text-align: center;
+  padding: 4%;
+}
+
+.contenedorformulario .formularioContacto {
+  width: 75%;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -644,8 +665,61 @@ html {
           justify-content: space-between;
 }
 
-.formularioContacto fieldset input {
-  margin: 20px;
-  padding: 10px;
+.contenedorformulario .formularioContacto input {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 23PX;
+  margin-bottom: 20px;
+  width: 49%;
+  height: 50px;
+  outline: none;
+  border: 1px solid #6a49e4;
+}
+
+.contenedorformulario .formularioContacto input[type=number]::-webkit-inner-spin-button, .contenedorformulario .formularioContacto input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contenedorformulario .formularioContacto input:focus {
+  border: 3px solid #6a49e4;
+}
+
+.contenedorformulario .formularioContacto input:active {
+  border: 3px solid #6a49e4;
+}
+
+.contenedorformulario .formularioContacto textarea {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 23PX;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+  border: 1px solid #6a49e4;
+  resize: none;
+  outline: none;
+}
+
+.contenedorformulario .formularioContacto textarea:focus {
+  border: 3px solid #6a49e4;
+}
+
+.contenedorformulario .formularioContacto textarea:active {
+  border: 3px solid #6a49e4;
+}
+
+.contenedorformulario .formularioContacto button {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 23PX;
+  color: #6a49e4;
+  text-decoration: underline;
   width: 40%;
+  margin: 10px auto;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.contenedorformulario .formularioContacto button i {
+  margin-left: 2px;
+  text-decoration: underline;
 }

@@ -47,20 +47,88 @@
     background: rgb(0, 0, 0);
     opacity: .3;
 }
-.formularioContacto{
+#mainContacto{
+    width: 100%;
     position: relative;
-    margin: 50px 0 200px;
-    padding: 10px;
-    height: 100vh;
-    fieldset{
-        border: solid 3px $acentuacion;
+    min-height: 120vh;
+    .fondoMainContacto{
+        position:absolute;
+        right: 0%; 
+        bottom:-50%; 
+        z-index: -1;
+    }
+
+}
+.contenedorformulario{
+    border: solid 2px $acentuacion;
+    height: 80vh;
+    width: 85%;
+    margin: auto;
+    p{
+        font-family: $LibreFranklin;
+        font-size: 23PX;
+        text-align: center;
+        padding: 4%;
+    }
+    .formularioContacto{
+        width: 75%;
+        margin: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+       
         input{
-            margin: 20px;
-            padding: 10px;
-            width: 40%;
+            font-family: $LibreFranklin;
+            font-size: 23PX;
+            margin-bottom:20px ;
+            width: 49%;
+            height: 50px;
+            outline: none;
+            border: 1px solid $acentuacion;
+            &[type=number]::-webkit-inner-spin-button, 
+            &[type=number]::-webkit-outer-spin-button { 
+              -webkit-appearance: none; 
+              margin: 0; 
+            }
+            &:focus{
+                border: 3px solid $acentuacion;
+            }
+            &:active{
+                border: 3px solid $acentuacion;
+            }
         }
+        textarea{
+            font-family: $LibreFranklin;
+            font-size: 23PX;
+            width: 100%;
+            height: 150px;
+            margin-bottom: 20px;
+            border: 1px solid $acentuacion;
+            resize: none;
+            outline: none;
+            &:focus{
+                border: 3px solid $acentuacion;
+            }
+            &:active{
+                border: 3px solid $acentuacion;
+            }
+        }
+        button{
+            font-family: $LibreFranklin;
+            font-size: 23PX;
+            color: $acentuacion;
+            text-decoration: underline;
+            width: 40%;
+            margin: 10px auto;
+            border: none;
+            background-color: inherit;
+            cursor: pointer;
+            i{
+                margin-left: 2px;
+                text-decoration: underline;
+            }
+        }
+        
+        
     }
 }
