@@ -358,7 +358,6 @@ html {
 .acordeonPregFrec input:checked ~ .acordeon__contenido {
   height: auto;
   margin: 15px 0;
-  padding: 2%;
 }
 
 .acordeon__titulo {
@@ -386,8 +385,8 @@ html {
   margin: 0;
   font-family: "Libre Franklin", sans-serif;
   text-align: justify;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .borderBottom {
@@ -709,7 +708,7 @@ html {
 
 .contenedorformulario .formularioContacto button {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 23PX;
+  font-size: 23px;
   color: #6a49e4;
   text-decoration: underline;
   width: 40%;
@@ -722,4 +721,14 @@ html {
 .contenedorformulario .formularioContacto button i {
   margin-left: 2px;
   text-decoration: underline;
+}
+
+.contenedorformulario .formularioContacto .success {
+  margin: 10px auto;
+  text-align: center;
+  color: #19f119;
+}
+
+.hidden {
+  display: none;
 }

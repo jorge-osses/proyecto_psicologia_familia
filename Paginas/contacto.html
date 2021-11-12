@@ -40,10 +40,11 @@
         </div>
         <div class="contenedorformulario">
         <p>Te invito a completar el formulario para coordinar una primera entrevista.<br>A la brevedad me estaré comunicando.</p>
-
+        <!-- mayarnkv formspree FormWebPage2021    jorge  mzbylbvr-->
         <form
         action="https://formspree.io/f/mzbylbvr"
         method="POST"
+        id="my-form"
         class="formularioContacto"
         >
         <input type="text" name="name" id="nameForm" placeholder="Nombre">
@@ -51,10 +52,11 @@
         <input type="number" name="Telefono" id="telForm" placeholder="Celular">
         <input type="text" name="Asunto" id="asuntoForm" placeholder="Asunto">
        
-        <textarea name="Mensaje" placeholder="Mensaje"></textarea>
+        <textarea name="msg" placeholder="Mensaje"></textarea>
         
-        <button type="submit">Enviar Mensaje<i class="fas fa-arrow-right"></i></button>
-        </form>
+        <button id="my-form-button" type="submit">Enviar Mensaje<i class="fas fa-arrow-right"></i></button>
+        <p id="my-form-status" class="success hidden"></p>
+    </form>
         </div>
         
         <img class="fondoMainContacto" src="../img/elemento_fondo.svg" alt="elemento fondo">
@@ -66,11 +68,11 @@
             <ul>
                 <li class="itemContacto1"><a href="http://api.whatsapp.com/send?phone=5491124507472&text=Hola,%20te%20contacto%20desde%20la%20pagina%20web,%20quisiera%20conocer%20m%C3%A1s%20sobre%20tus%20servicios" target="_blank">+54 9 115562-8459</a></li>
                 <li class="itemContacto2"><a href="https://www.instagram.com/espaciopsicologiayfamilias/" target="_blank">@espaciopsicologiayfamilias</a></li>
-                <li class="itemContacto3"><a href="mailto:contacto@espaciopsicologiayfamilias.com.ar" target="_blank">contacto@espaciopsicologiayfamilias.com.ar</a></li>
+                <li class="itemContacto3"><a href="mailto:consultas@espaciopsicologiayfamilias.com.ar" target="_blank">consultas@espaciopsicologiayfamilias.com.ar</a></li>
                 <li class="itemContacto4">
                     <a href="https://api.whatsapp.com/send?phone=5491155628459&text=Hola,%20te%20contacto%20desde%20la%20pagina%20web,%20quisiera%20conocer%20m%C3%A1s%20sobre%20tus%20servicios" target="_blank" rel="noopener noreferrer"><img src="../img/whatsapp.svg" alt="whatsapp"></a>
                     <a href="https://www.instagram.com/espaciopsicologiayfamilias/" target="_blank"><img src="../img/instagram.svg" alt="instagram"></a>
-                    <a href="mailto:contacto@espaciopsicologiayfamilias.com.ar" target="_blank"><img src="../img/mail.svg" alt="mail"></a>
+                    <a href="mailto:consultas@espaciopsicologiayfamilias.com.ar" target="_blank"><img src="../img/mail.svg" alt="mail"></a>
                 </li>
             </ul>
 
@@ -98,7 +100,7 @@
                 <ul>
                     <li><a href="http://www.instagram.com/espaciopsicologiayfamilias/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
                     <li><a href="http://api.whatsapp.com/send?phone=5491155628459&text=Hola,%20te%20contacto%20desde%20la%20pagina%20web,%20quisiera%20conocer%20m%C3%A1s%20sobre%20tus%20servicios" target="_blank"><i class="fab fa-whatsapp"></i>Whatsapp</a></li>
-                    <li><a href="mailto:contacto@espaciopsicologiayfamilias.com.ar" target="_blank"><i class="far fa-envelope"></i>e-mail</a></li>
+                    <li><a href="mailto:consultas@espaciopsicologiayfamilias.com.ar" target="_blank"><i class="far fa-envelope"></i>e-mail</a></li>
                 </ul>
             </div>
         </div>
