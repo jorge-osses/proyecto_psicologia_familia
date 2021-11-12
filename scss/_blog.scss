@@ -1,0 +1,130 @@
+.headerBlog {
+    width: 100%;
+    min-height: 95vh;
+    background-image: url(../img/headerBlog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .tituloHeaderBlog{
+        text-align: center;
+        z-index: 1;
+        h1, h2{
+            color: $fondo;
+            left:50%;
+            top: 50%;
+            font-family: $LibreFranklin;
+            font-weight: 400;
+            font-size: 3.2em;
+        }
+        h2{
+            font-size: 2em;
+        }
+    }
+    .botonHeaderBlog {
+        z-index: 1;
+        cursor: pointer;
+        width: 15%;
+        height: 50px;
+        margin-top: 50px;
+        background-color: transparent;
+        box-shadow: none;
+        border:solid $fondo 3px;
+        font-family: $LibreFranklin;
+        font-weight: 400;
+        font-size: 1.3em;
+        color: $fondo;
+    }
+    
+    
+}
+.headerBlog:before {
+    content: '';
+    width: 100%;
+    min-height: 95vh;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    opacity: .3;
+}
+
+//---- BLOG ----//
+
+.mainBlog {
+    margin: 0 auto;
+    position: relative;
+    .main_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h2{
+            color: $acentuacion;
+            font-family: $aleo;
+            font-weight: 400;
+            font-size: 30px;
+            margin-bottom: 100px;
+        }
+    }
+    .contenedorBlog{
+        margin: 3% auto 20%;
+
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .card {
+            border-top: solid $lilaPpal 1px;
+            display: flex;
+            justify-content: center;
+            .img-card{
+                width: 50%;
+                padding: 2.5%;
+                img{
+                    width: 100%;
+                }
+            }
+            .contenido-card{
+                width: 50%;
+                padding: 5%;
+                h1{
+                    color: $acentuacion;
+                    font-family: $aleo;
+                    font-weight: 700;
+                    font-size: 23px;
+                }
+                p{
+                    color: $gris;
+                    font-family: $LibreFranklin;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 21.82px;
+                    padding: 10% 0;
+                }
+                a{
+                    text-decoration: none;
+                    color: $acentuacion;
+                    font-family: $LibreFranklin;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24.24px;
+                    i{
+                        padding-left: 40px;
+                    }
+                    &:hover{
+                        border-bottom: solid 3px $acentuacion;
+                    }
+                }
+            }
+        }
+    }
+}
+.fondoBlog {
+    position: absolute;
+    right: 0%;
+    bottom: -45%;
+    z-index: -1;
+}

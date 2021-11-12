@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style.css">
-    <title>Contacto - Lic. Gutierrez</title>
+    <title>Blog - Lic. Gutierrez</title>
 </head>
 <body class="bodyPreguntasFrecuentes">
     <nav class="nav">
@@ -15,18 +15,18 @@
             <li class="item2"><a href="">Sobre mí</a></li>
             <li class="item3"><a href="">Servicios</a></li>
             <li class="nombre"><h2>Lic. Gutierrez</h2><p>Sofia L</p></li>
-            <li class="item4"><a href="">Blog</a></li>
+            <li class="item4 active"><a href="">Blog</a></li>
             <li class="item5"><a href="./preguntas_frecuentes.html">Preguntas Frecuentes</a></li>
-            <li class="item6 active"><a href="">Contacto</a></li>
+            <li class="item6"><a href="./contacto.html">Contacto</a></li>
         </ul>
     </nav>
     
-    <header class="headerContacto">
-        <div class="tituloHeaderContacto">
-            <h1>¿Alguna duda puntual?</h1><h1>Hablame a Whatsapp</h1>
+    <header class="headerBlog">
+        <div class="tituloHeaderBlog">
+            <h1>Todo lo que tenés que saber</h1><h1>para llevar una vida saludable</h1><h2>Inscribíte a sesión y accede a una extra gratuita</h2>
         </div>
-        <button class="botonHeaderContacto">
-            Contactar
+        <button class="botonHeaderBlog">
+            Inscribite a la sesión
         </button>
     </header>
   
@@ -34,32 +34,63 @@
         <img src="../img/path.svg" alt="path">
     </div>
    
-    <main class="mainPreguntasFrec" id="mainContacto">
+
+    <main class="mainBlog">
         <div class="main_title">
-            <h2>Completá el formulario para agendar un turno</h2>
+            <h2>Blog</h2>
         </div>
-        <div class="contenedorformulario">
-        <p>Te invito a completar el formulario para coordinar una primera entrevista.<br>A la brevedad me estaré comunicando.</p>
-        <form
-        action="https://formspree.io/f/mzbylbvr"
-        method="POST"
-        id="my-form"
-        class="formularioContacto"
-        >
-        <input type="text" name="name" id="nameForm" placeholder="Nombre">
-        <input type="email" name="_replyto" id="emailForm" placeholder="Email">
-        <input type="number" name="Telefono" id="telForm" placeholder="Celular">
-        <input type="text" name="Asunto" id="asuntoForm" placeholder="Asunto">
-       
-        <textarea name="msg" placeholder="Mensaje"></textarea>
-        
-        <button id="my-form-button" type="submit">Enviar Mensaje<i class="fas fa-arrow-right"></i></button>
-        <p id="my-form-status" class="success hidden"></p>
-    </form>
+
+
+        <div class="contenedorBlog">
+           <div class="card">
+               <div class="img-card">
+                   <img src="../img/img_blog.jpg" alt="familia">
+               </div>
+               <div class="contenido-card">
+                   <h1>NOTICIA 1</h1>
+                   <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel provident quo voluptates nesciunt quiLorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel provident quo voluptates nesciunt qui</P>
+                   <a href="">Seguir leyendo <i class="fas fa-arrow-right"></i></a>
+               </div>
+           </div>
+           <div class="card">
+            <div class="img-card">
+                <img src="../img/img_blog.jpg" alt="familia">
+            </div>
+            <div class="contenido-card">
+                <h1>NOTICIA 2</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel provident quo voluptates nesciunt quiLorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel provident quo voluptates nesciunt qui</P>
+                <a href="">Seguir leyendo <i class="fas fa-arrow-right"></i></a>
+            </div>
         </div>
-        
-        <img class="fondoMainContacto" src="../img/elemento_fondo.svg" alt="elemento fondo">
+        <div class="card">
+            <div class="img-card">
+                <img src="../img/img_blog.jpg" alt="familia">
+            </div>
+            <div class="contenido-card">
+                <h1>NOTICIA 3</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel provident quo voluptates nesciunt quiLorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel provident quo voluptates nesciunt qui</P>
+                <a href="">Seguir leyendo <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="card" style="border-bottom: solid #b5a4f4 1px;">
+            <div class="img-card">
+                <img src="../img/img_blog.jpg" alt="familia">
+            </div>
+            <div class="contenido-card">
+                <h1>NOTICIA 4</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel provident quo voluptates nesciunt quiLorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel provident quo voluptates nesciunt qui</P>
+                <a href="">Seguir leyendo <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+
+
+        </div>
+        <img class="fondoBlog" src="../img/elemento_fondo.svg" alt="elemento fondo">
     </main>
+
+
+
     <div class="tarjetaContactoPregFrec">
         <div><img src="../img/SofiContacto.jpg" alt="Sofia Gutierrez"></div>
         <div class="datosDeContactoPregFrec">
@@ -90,7 +121,7 @@
                 <li class="item"><a href="">Servicios</a></li>
                 <li class="item"><a href="">Blog</a></li>
                 <li class="item"><a href="./preguntas_frecuentes.html">Preguntas Frecuentes</a></li>
-                <li class="item"><a href="">Contacto</a></li>
+                <li class="item"><a href="./contacto.html">Contacto</a></li>
             </ul>
         </div>
         <div class="footerContent">
@@ -108,6 +139,6 @@
         </div>
     </div>
 
-    <script src="../Js/contacto.js"></script>
+
 </body>
 </html>

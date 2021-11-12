@@ -235,6 +235,182 @@ html {
   margin: 0 5%;
 }
 
+.headerBlog {
+  width: 100%;
+  min-height: 95vh;
+  background-image: url(../img/headerBlog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerBlog .tituloHeaderBlog {
+  text-align: center;
+  z-index: 1;
+}
+
+.headerBlog .tituloHeaderBlog h1, .headerBlog .tituloHeaderBlog h2 {
+  color: #fafafa;
+  left: 50%;
+  top: 50%;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 3.2em;
+}
+
+.headerBlog .tituloHeaderBlog h2 {
+  font-size: 2em;
+}
+
+.headerBlog .botonHeaderBlog {
+  z-index: 1;
+  cursor: pointer;
+  width: 15%;
+  height: 50px;
+  margin-top: 50px;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: solid #fafafa 3px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #fafafa;
+}
+
+.headerBlog:before {
+  content: '';
+  width: 100%;
+  min-height: 95vh;
+  position: absolute;
+  background: black;
+  opacity: .3;
+}
+
+.mainBlog {
+  margin: 0 auto;
+  position: relative;
+}
+
+.mainBlog .main_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainBlog .main_title h2 {
+  color: #6a49e4;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.mainBlog .contenedorBlog {
+  margin: 3% auto 20%;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainBlog .contenedorBlog .card {
+  border-top: solid #b5a4f4 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainBlog .contenedorBlog .card .img-card {
+  width: 50%;
+  padding: 2.5%;
+}
+
+.mainBlog .contenedorBlog .card .img-card img {
+  width: 100%;
+}
+
+.mainBlog .contenedorBlog .card .contenido-card {
+  width: 50%;
+  padding: 5%;
+}
+
+.mainBlog .contenedorBlog .card .contenido-card h1 {
+  color: #6a49e4;
+  font-family: "Aleo", serif;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.mainBlog .contenedorBlog .card .contenido-card p {
+  color: #353535;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21.82px;
+  padding: 10% 0;
+}
+
+.mainBlog .contenedorBlog .card .contenido-card a {
+  text-decoration: none;
+  color: #6a49e4;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.24px;
+}
+
+.mainBlog .contenedorBlog .card .contenido-card a i {
+  padding-left: 40px;
+}
+
+.mainBlog .contenedorBlog .card .contenido-card a:hover {
+  border-bottom: solid 3px #6a49e4;
+}
+
+.fondoBlog {
+  position: absolute;
+  right: 0%;
+  bottom: -45%;
+  z-index: -1;
+}
+
 .headerPreguntasFrec {
   width: 100%;
   min-height: 95vh;
