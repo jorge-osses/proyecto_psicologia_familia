@@ -235,6 +235,71 @@ html {
   margin: 0 5%;
 }
 
+.headerServicios {
+  width: 100%;
+  min-height: 95vh;
+  background-image: url(../img/headerServicios.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerServicios .tituloHeaderServicios {
+  text-align: center;
+  z-index: 1;
+}
+
+.headerServicios .tituloHeaderServicios h1, .headerServicios .tituloHeaderServicios h2 {
+  color: #fafafa;
+  left: 50%;
+  top: 50%;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 3.2em;
+}
+
+.headerServicios .tituloHeaderServicios h2 {
+  font-size: 2em;
+}
+
+.headerServicios .botonHeaderServicios {
+  z-index: 1;
+  cursor: pointer;
+  width: 15%;
+  height: 50px;
+  margin-top: 50px;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: solid #fafafa 3px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #fafafa;
+}
+
+.headerServicios:before {
+  content: '';
+  width: 100%;
+  min-height: 95vh;
+  position: absolute;
+  background: black;
+  opacity: .3;
+}
+
 .headerBlog {
   width: 100%;
   min-height: 95vh;
