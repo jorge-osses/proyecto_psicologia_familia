@@ -596,6 +596,7 @@ html {
 
 .mainBlog .contenedorBlog .card .img-card img {
   width: 100%;
+  height: 300px;
 }
 
 .mainBlog .contenedorBlog .card .contenido-card {
