@@ -91,7 +91,7 @@
     &:checked ~ .acordeon__contenido {
         height: auto;
         margin: 15px 0;
-        // padding: 2%;      
+        padding: 2%;      
     }
 }
 .acordeon__titulo{
@@ -116,7 +116,12 @@
     margin: 0;
     font-family: $LibreFranklin;
     text-align: justify;
-    transition: all 0.1s ease-in;
+    line-height: 30px;
+    transition: all 0.09s ease-out;
+}
+.acordeon__contenido a {
+    text-decoration: none;
+    color: $acentuacion;
 }
 .borderBottom{
     border-bottom: 1px #B5A4F44D solid;

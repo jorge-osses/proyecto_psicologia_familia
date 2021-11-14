@@ -67,6 +67,12 @@
             font-size: 30px;
             margin-bottom: 100px;
         }
+        h3{
+            margin-top: -60px;
+            font-family: $LibreFranklin;
+            font-weight: 400;
+            font-size: 25px;
+        }
     }
     .contenedorBlog{
         margin: 3% auto 20%;
@@ -121,6 +127,9 @@
             }
         }
     }
+}
+.relative{
+    position: relative;
 }
 .fondoBlog {
     position: absolute;

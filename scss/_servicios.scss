@@ -49,3 +49,114 @@
     background: rgb(0, 0, 0);
     opacity: .3;
 }
+
+.iconosServicios{
+    width: 60%;
+    margin: 0 auto 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .divIcn{
+        display: flex;
+        flex-direction: column;
+        img, h4{
+            margin: 10px auto;
+            text-align: center;
+            font-family: $LibreFranklin;
+            font-weight: 300;
+            font-size: 18px;
+        }
+        h4{
+            width: 150px;
+        }
+    }
+}
+
+.contenedorCardServicios{
+    margin: 5% auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .cardServicios {
+        display: flex;
+        justify-content: center;
+        .img-card{
+            width: 50%;
+            padding: 2.5%;
+            img{
+                width: 100%;
+            }
+        }
+        .contenido-card{
+            width: 50%;
+            padding: 5%;
+            h1{
+                color: $acentuacion;
+                font-family: $aleo;
+                font-weight: 700;
+                font-size: 23px;
+            }
+            p{
+                color: $gris;
+                width: 85%;
+                font-family: $LibreFranklin;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 21.82px;
+                padding: 0 0 20% 0;
+            }
+            a{
+                text-decoration: none;
+                color: $acentuacion;
+                font-family: $LibreFranklin;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24.24px;
+                i{
+                    padding-left: 30px;
+                }
+                &:hover{
+                    border-bottom: solid 3px $acentuacion;
+                }
+            }
+        }
+    }
+}
+.titularesServicios{
+    width: 80%;
+    margin:10% auto;
+    .titServicios{
+        margin:70px auto;
+        width: 90%;
+        h2{
+            color: $acentuacion;
+            font-family: $aleo;
+            font-weight: 400;
+            font-size: px;
+        }
+        p{
+            color: #4d4d4d;
+            font-family: $LibreFranklin;
+            font-weight: 300;
+            font-size: 18px;
+        }
+    }
+    border-bottom: 1px solid rgba(247, 183, 210, 0.3);
+}
+.path-servicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -60px auto 50px;
+}
+.carrouselService{
+    margin: 150px auto;
+}
+.fondoServicios {
+    position: absolute;
+    right: 0%;
+    bottom: -18.65%;
+    z-index: -1;
+}

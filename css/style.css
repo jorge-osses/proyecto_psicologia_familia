@@ -300,6 +300,166 @@ html {
   opacity: .3;
 }
 
+.iconosServicios {
+  width: 60%;
+  margin: 0 auto 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.iconosServicios .divIcn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.iconosServicios .divIcn img, .iconosServicios .divIcn h4 {
+  margin: 10px auto;
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.iconosServicios .divIcn h4 {
+  width: 150px;
+}
+
+.contenedorCardServicios {
+  margin: 5% auto;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedorCardServicios .cardServicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedorCardServicios .cardServicios .img-card {
+  width: 50%;
+  padding: 2.5%;
+}
+
+.contenedorCardServicios .cardServicios .img-card img {
+  width: 100%;
+}
+
+.contenedorCardServicios .cardServicios .contenido-card {
+  width: 50%;
+  padding: 5%;
+}
+
+.contenedorCardServicios .cardServicios .contenido-card h1 {
+  color: #6a49e4;
+  font-family: "Aleo", serif;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.contenedorCardServicios .cardServicios .contenido-card p {
+  color: #353535;
+  width: 85%;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21.82px;
+  padding: 0 0 20% 0;
+}
+
+.contenedorCardServicios .cardServicios .contenido-card a {
+  text-decoration: none;
+  color: #6a49e4;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.24px;
+}
+
+.contenedorCardServicios .cardServicios .contenido-card a i {
+  padding-left: 30px;
+}
+
+.contenedorCardServicios .cardServicios .contenido-card a:hover {
+  border-bottom: solid 3px #6a49e4;
+}
+
+.titularesServicios {
+  width: 80%;
+  margin: 10% auto;
+  border-bottom: 1px solid rgba(247, 183, 210, 0.3);
+}
+
+.titularesServicios .titServicios {
+  margin: 70px auto;
+  width: 90%;
+}
+
+.titularesServicios .titServicios h2 {
+  color: #6a49e4;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: px;
+}
+
+.titularesServicios .titServicios p {
+  color: #4d4d4d;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.path-servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: -60px auto 50px;
+}
+
+.carrouselService {
+  margin: 150px auto;
+}
+
+.fondoServicios {
+  position: absolute;
+  right: 0%;
+  bottom: -18.65%;
+  z-index: -1;
+}
+
 .headerBlog {
   width: 100%;
   min-height: 95vh;
@@ -394,6 +554,13 @@ html {
   margin-bottom: 100px;
 }
 
+.mainBlog .main_title h3 {
+  margin-top: -60px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
 .mainBlog .contenedorBlog {
   margin: 3% auto 20%;
   width: 75%;
@@ -467,6 +634,10 @@ html {
 
 .mainBlog .contenedorBlog .card .contenido-card a:hover {
   border-bottom: solid 3px #6a49e4;
+}
+
+.relative {
+  position: relative;
 }
 
 .fondoBlog {
@@ -599,6 +770,7 @@ html {
 .acordeonPregFrec input:checked ~ .acordeon__contenido {
   height: auto;
   margin: 15px 0;
+  padding: 2%;
 }
 
 .acordeon__titulo {
@@ -626,8 +798,14 @@ html {
   margin: 0;
   font-family: "Libre Franklin", sans-serif;
   text-align: justify;
-  -webkit-transition: all 0.1s ease-in;
-  transition: all 0.1s ease-in;
+  line-height: 30px;
+  -webkit-transition: all 0.09s ease-out;
+  transition: all 0.09s ease-out;
+}
+
+.acordeon__contenido a {
+  text-decoration: none;
+  color: #6a49e4;
 }
 
 .borderBottom {
