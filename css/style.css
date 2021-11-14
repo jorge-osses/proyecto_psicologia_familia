@@ -116,15 +116,15 @@ html {
 }
 
 .contenedorHeaderIndex {
-  margin: 0 15%;
+  margin: 0 10%;
 }
 
 .tituloHeaderIndex {
   font-family: "Aleo", serif;
-  font-size: 1.7rem;
+  font-size: 2rem;
   text-align: center;
   color: #6a49e4;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .subtituloHeaderIndex {
@@ -152,12 +152,42 @@ html {
 }
 
 .imgHeaderIndex {
-  width: 30%;
+  width: 40%;
 }
 
 .listaHeaderIndex div {
   margin: 5% 15% 5% 0%;
   font-family: "Libre Franklin", sans-serif;
+}
+
+.contenedorFilaHeaderIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icoVerde {
+  margin-right: 3%;
+  background-color: #A6DBCB;
+  padding: 3% 3.5%;
+  border-radius: 50%;
+}
+
+.FondoVerdeIndex {
+  position: absolute;
+  z-index: -1;
+  left: 80%;
+  top: 78%;
 }
 
 .contenedorCarrusel {
@@ -723,3 +753,4 @@ html {
   margin-left: 2px;
   text-decoration: underline;
 }
+/*# sourceMappingURL=style.css.map */
