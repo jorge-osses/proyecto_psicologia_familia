@@ -26,8 +26,8 @@
         z-index: 1;
         cursor: pointer;
         width: 15%;
-        height: 50px;
         margin-top: 50px;
+        padding: 1%;
         background-color: transparent;
         box-shadow: none;
         border:solid $fondo 3px;
@@ -35,6 +35,12 @@
         font-weight: 400;
         font-size: 1.3em;
         color: $fondo;
+        text-align: center;
+        text-decoration: none;
+        &:hover{
+            color: $acentuacion;
+            border:solid $acentuacion 3px;
+        }
     }
     
     
@@ -117,15 +123,16 @@
             font-family: $LibreFranklin;
             font-size: 23px;
             color: $acentuacion;
-            text-decoration: underline;
             width: 40%;
             margin: 10px auto;
             border: none;
             background-color: inherit;
             cursor: pointer;
+            &:hover{
+                border-bottom: solid 3px $acentuacion;
+            }
             i{
-                margin-left: 2px;
-                text-decoration: underline;
+                margin-left: 40px;
             }
         }
         .success{
