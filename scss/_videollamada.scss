@@ -1,0 +1,138 @@
+.headerVideollamada{
+    width: 100%;
+    min-height: 95vh;
+    background-image: url(../img/videollamada.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &::before{
+        content: '';
+        width: 100%;
+        min-height: 95vh;
+        position: absolute;
+        background: rgb(0, 0, 0);
+        opacity: .3;
+    }
+}
+.mainBlogVideollamada{
+    margin: 5% auto;
+    position: relative;
+    .main_title{
+        h1{
+            text-align: center;
+            color: $acentuacion;
+            font-family: $aleo;
+            font-weight: 700;
+            font-size: 2.5em;
+            margin: 1em;
+        }
+    }
+    .contenidoVideollamada{
+        width: 75%;
+        margin:5% auto;
+        h2{
+            font-family: $LibreFranklin;
+            font-weight: 400;
+            text-align: justify;
+            text-indent: 8%;
+        }
+        p{
+            margin: 3% auto;
+            font-family: $LibreFranklin;
+            font-weight: 300;
+            text-align: justify;
+            text-indent: 8%;
+            small{
+                color: $acentuacion;
+                font-family: inherit;
+                font-weight: 500;
+                font-size: 1.2em;
+            }
+        }
+        .subtit{
+            text-indent:0%;
+            margin: 8% auto;
+            color: $acentuacion;
+            font-family: $LibreFranklin;
+            font-weight: 400;
+        }
+        ul{
+            font-family: $LibreFranklin;
+            font-weight: 300;
+            text-indent: 8%;
+            list-style-position: inside;
+            list-style-type:square;
+            margin-bottom: 10%;
+            li{
+                b{
+                    color: $acentuacion;
+                    line-height: 3.5;
+
+                }
+            }
+        }
+    }
+    .subtitOtros{
+        padding: 2.5%;
+        text-align: center;
+        color: $acentuacion;
+        font-family: $aleo;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .cardsBlog{
+        max-height: fit-content;
+        display: flex;
+        align-items:stretch;
+        justify-content: center;
+        .card{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            padding: 2.5%;
+            .img-card{
+                width: 100%;
+                img{
+                    width: 100%;
+                    height: 240px;
+                }
+            }
+            .contenido-card{
+                width: 100%;
+                h1{
+                    color: $acentuacion;
+                    font-family: $aleo;
+                    font-weight: 700;
+                    font-size: 23px;
+                    padding: 5% 0;
+                }
+                p{
+                    color: $gris;
+                    font-family: $LibreFranklin;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 21.82px;
+                    padding: 5% 0;
+                }
+                a{
+                    text-decoration: none;
+                    color: $acentuacion;
+                    font-family: $LibreFranklin;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24.24px;
+                    i{
+                        padding-left: 40px;
+                    }
+                    &:hover{
+                        border-bottom: solid 3px $acentuacion;
+                    }
+                }
+            }
+        }
+    }
+}

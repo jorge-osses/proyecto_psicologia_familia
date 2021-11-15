@@ -660,6 +660,183 @@ html {
   z-index: -1;
 }
 
+.headerVideollamada {
+  width: 100%;
+  min-height: 95vh;
+  background-image: url(../img/videollamada.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerVideollamada::before {
+  content: '';
+  width: 100%;
+  min-height: 95vh;
+  position: absolute;
+  background: black;
+  opacity: .3;
+}
+
+.mainBlogVideollamada {
+  margin: 5% auto;
+  position: relative;
+}
+
+.mainBlogVideollamada .main_title h1 {
+  text-align: center;
+  color: #6a49e4;
+  font-family: "Aleo", serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin: 1em;
+}
+
+.mainBlogVideollamada .contenidoVideollamada {
+  width: 75%;
+  margin: 5% auto;
+}
+
+.mainBlogVideollamada .contenidoVideollamada h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  text-indent: 8%;
+}
+
+.mainBlogVideollamada .contenidoVideollamada p {
+  margin: 3% auto;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  text-indent: 8%;
+}
+
+.mainBlogVideollamada .contenidoVideollamada p small {
+  color: #6a49e4;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.mainBlogVideollamada .contenidoVideollamada .subtit {
+  text-indent: 0%;
+  margin: 8% auto;
+  color: #6a49e4;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+}
+
+.mainBlogVideollamada .contenidoVideollamada ul {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  text-indent: 8%;
+  list-style-position: inside;
+  list-style-type: square;
+  margin-bottom: 10%;
+}
+
+.mainBlogVideollamada .contenidoVideollamada ul li b {
+  color: #6a49e4;
+  line-height: 3.5;
+}
+
+.mainBlogVideollamada .subtitOtros {
+  padding: 2.5%;
+  text-align: center;
+  color: #6a49e4;
+  font-family: "Aleo", serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.mainBlogVideollamada .cardsBlog {
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainBlogVideollamada .cardsBlog .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  padding: 2.5%;
+}
+
+.mainBlogVideollamada .cardsBlog .card .img-card {
+  width: 100%;
+}
+
+.mainBlogVideollamada .cardsBlog .card .img-card img {
+  width: 100%;
+  height: 240px;
+}
+
+.mainBlogVideollamada .cardsBlog .card .contenido-card {
+  width: 100%;
+}
+
+.mainBlogVideollamada .cardsBlog .card .contenido-card h1 {
+  color: #6a49e4;
+  font-family: "Aleo", serif;
+  font-weight: 700;
+  font-size: 23px;
+  padding: 5% 0;
+}
+
+.mainBlogVideollamada .cardsBlog .card .contenido-card p {
+  color: #353535;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21.82px;
+  padding: 5% 0;
+}
+
+.mainBlogVideollamada .cardsBlog .card .contenido-card a {
+  text-decoration: none;
+  color: #6a49e4;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.24px;
+}
+
+.mainBlogVideollamada .cardsBlog .card .contenido-card a i {
+  padding-left: 40px;
+}
+
+.mainBlogVideollamada .cardsBlog .card .contenido-card a:hover {
+  border-bottom: solid 3px #6a49e4;
+}
+
 .headerPreguntasFrec {
   width: 100%;
   min-height: 95vh;
