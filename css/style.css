@@ -776,6 +776,7 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 10%;
 }
 
 .mainBlogVideollamada .cardsBlog .card {
@@ -835,6 +836,13 @@ html {
 
 .mainBlogVideollamada .cardsBlog .card .contenido-card a:hover {
   border-bottom: solid 3px #6a49e4;
+}
+
+.mainBlogVideollamada .fondoVideollamada {
+  position: absolute;
+  right: 0%;
+  bottom: -22%;
+  z-index: -1;
 }
 
 .headerPreguntasFrec {

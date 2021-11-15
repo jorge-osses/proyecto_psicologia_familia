@@ -89,6 +89,7 @@
         display: flex;
         align-items:stretch;
         justify-content: center;
+        margin-bottom: 10%;
         .card{
             display: flex;
             flex-direction: column;
@@ -134,5 +135,11 @@
                 }
             }
         }
+    }
+    .fondoVideollamada{
+        position: absolute;
+        right: 0%;
+        bottom: -22%;
+        z-index: -1;
     }
 }
