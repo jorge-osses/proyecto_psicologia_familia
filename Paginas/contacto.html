@@ -25,9 +25,9 @@
         <div class="tituloHeaderContacto">
             <h1>¿Alguna duda puntual?</h1><h1>Hablame a Whatsapp</h1>
         </div>
-        <button class="botonHeaderContacto">
+        <a href="http://api.whatsapp.com/send?phone=5491155628459&text=Hola,%20te%20contacto%20desde%20la%20pagina%20web,%20quisiera%20conocer%20m%C3%A1s%20sobre%20tus%20servicios" target="_blank" class="botonHeaderContacto">
             Contactar
-        </button>
+        </a>
     </header>
   
     <div class="path">
@@ -46,12 +46,12 @@
         id="my-form"
         class="formularioContacto"
         >
-        <input type="text" name="name" id="nameForm" placeholder="Nombre">
-        <input type="email" name="_replyto" id="emailForm" placeholder="Email">
-        <input type="number" name="Telefono" id="telForm" placeholder="Celular">
-        <input type="text" name="Asunto" id="asuntoForm" placeholder="Asunto">
+        <input type="text" name="name" id="nameForm" placeholder="Nombre" required>
+        <input type="email" name="_replyto" id="emailForm" placeholder="Email" required>
+        <input type="number" name="Telefono" id="telForm" placeholder="Celular" required>
+        <input type="text" name="Asunto" id="asuntoForm" placeholder="Asunto" required>
        
-        <textarea name="msg" placeholder="Mensaje"></textarea>
+        <textarea name="msg" placeholder="Mensaje" required></textarea>
         
         <button id="my-form-button" type="submit">Enviar Mensaje<i class="fas fa-arrow-right"></i></button>
         <p id="my-form-status" class="success hidden"></p>
@@ -94,7 +94,7 @@
             </ul>
         </div>
         <div class="footerContent">
-            <p class="izq">lorem ipsun dolor sit amet lorem ipsum dolor sit amet</p>
+            <p class="izq">Psicóloga vincular de familias con niños, niñas y adolescentes</p>
             <div class="der">
                 <ul>
                     <li><a href="http://www.instagram.com/espaciopsicologiayfamilias/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
