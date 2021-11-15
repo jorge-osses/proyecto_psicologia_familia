@@ -343,6 +343,11 @@ html {
   width: 150px;
 }
 
+.iconosServicios .icnDiv {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
 .contenedorCardServicios {
   margin: 5% auto;
   width: 75%;
