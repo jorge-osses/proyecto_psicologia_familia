@@ -82,7 +82,7 @@
 }
 
 .contenedorCardServicios{
-    margin: 5% auto;
+    margin: 10% auto;
     width: 75%;
     display: flex;
     flex-direction: column;
@@ -97,6 +97,11 @@
             img{
                 width: 100%;
             }
+        }
+        .talleresImg{
+            padding: 0%;
+            display: flex;
+            justify-content: stretch;
         }
         .contenido-card{
             width: 50%;
@@ -131,7 +136,20 @@
                 }
             }
         }
+        .talleres{
+            padding: 0%;
+            p{
+                width: 98%;
+                padding: 0 0 5px;
+                font-size: 14px;
+                text-align: justify;
+            }
+        }
     }
+}
+.subtit{
+    margin: 0% auto 5%;
+    font-size: .7rem;
 }
 .titularesServicios{
     width: 80%;

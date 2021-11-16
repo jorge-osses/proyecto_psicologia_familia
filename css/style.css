@@ -452,7 +452,7 @@ html {
 }
 
 .contenedorCardServicios {
-  margin: 5% auto;
+  margin: 10% auto;
   width: 75%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -485,6 +485,16 @@ html {
 
 .contenedorCardServicios .cardServicios .img-card img {
   width: 100%;
+}
+
+.contenedorCardServicios .cardServicios .talleresImg {
+  padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
 }
 
 .contenedorCardServicios .cardServicios .contenido-card {
@@ -524,6 +534,22 @@ html {
 
 .contenedorCardServicios .cardServicios .contenido-card a:hover {
   border-bottom: solid 3px #6a49e4;
+}
+
+.contenedorCardServicios .cardServicios .talleres {
+  padding: 0%;
+}
+
+.contenedorCardServicios .cardServicios .talleres p {
+  width: 98%;
+  padding: 0 0 5px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.subtit {
+  margin: 0% auto 5%;
+  font-size: .7rem;
 }
 
 .titularesServicios {
@@ -1489,4 +1515,3 @@ html {
 .hidden {
   display: none;
 }
-/*# sourceMappingURL=style.css.map */
