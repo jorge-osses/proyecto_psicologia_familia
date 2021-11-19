@@ -18,3 +18,23 @@
         opacity: .3;
     }
 }
+.headerElDuelo{
+    width: 100%;
+    min-height: 95vh;
+    background-image: url(../img/duelo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &::before{
+        content: '';
+        width: 100%;
+        min-height: 95vh;
+        position: absolute;
+        background: rgb(0, 0, 0);
+        opacity: .3;
+    }
+}
