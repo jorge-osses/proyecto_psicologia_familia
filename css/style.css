@@ -338,6 +338,174 @@ html {
   z-index: -1;
 }
 
+.headerSobreMi {
+  width: 100%;
+  min-height: 95vh;
+  background-image: url("../img/headerSobremi.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerSobreMi .tituloHeaderSobreMi {
+  text-align: center;
+  z-index: 1;
+}
+
+.headerSobreMi .tituloHeaderSobreMi h1 {
+  color: #fafafa;
+  left: 50%;
+  top: 50%;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 3em;
+}
+
+.headerSobreMi .botonHeaderSobreMi {
+  z-index: 1;
+  cursor: pointer;
+  width: 15%;
+  margin-top: 50px;
+  padding: 1%;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: solid #fafafa 3px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #fafafa;
+  text-align: center;
+  text-decoration: none;
+}
+
+.headerSobreMi .botonHeaderSobreMi:hover {
+  color: #6a49e4;
+  border: solid #6a49e4 3px;
+}
+
+.headerSobreMi::before {
+  content: '';
+  width: 100%;
+  min-height: 95vh;
+  position: absolute;
+  background: black;
+  opacity: .3;
+}
+
+.mainSobreMi {
+  margin: 0 auto;
+  position: relative;
+}
+
+.mainSobreMi .main_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainSobreMi .main_title h2 {
+  color: #6a49e4;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.mainSobreMi .main_title h3 {
+  margin-top: -60px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.mainSobreMi .contenedorSobreMi {
+  margin: 3% auto 20%;
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainSobreMi .contenedorSobreMi .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainSobreMi .contenedorSobreMi .card .img-card {
+  width: 35%;
+  padding-right: 2.5%;
+}
+
+.mainSobreMi .contenedorSobreMi .card .img-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.mainSobreMi .contenedorSobreMi .card .contenido-card {
+  width: 60%;
+}
+
+.mainSobreMi .contenedorSobreMi .card .contenido-card p {
+  color: #353535;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.8;
+  padding: 0;
+}
+
+.mainSobreMi .presentacionVideo {
+  margin: 0 auto 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fondoImgSobreMi {
+  position: absolute;
+  right: 0;
+  bottom: -40%;
+  z-index: -1;
+}
+
 .headerServicios {
   width: 100%;
   min-height: 95vh;
