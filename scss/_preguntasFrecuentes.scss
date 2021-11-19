@@ -180,13 +180,24 @@
                 justify-content: center;
                 a{
                     margin:10px;
-                    img{
+                    img, .fa-facebook-f{
                         border-radius: 50%;
                         transition: all .5s;
                         &:hover{
-                            box-shadow:0px 0px 5px 5px rgb(143, 143, 143);
-                            border-color: #3000dd;
+                            box-shadow:0px 0px 7px 7px rgb(179, 179, 179);
+                            border-color: $acentuacion;
                         }
+                    }
+                    .fa-facebook-f{
+                        background-color: $acentuacion;
+                        color: $fondo;
+                        font-size: 1.7em;
+                        width: 63px;
+                        height: 63px;
+                        text-align: center;
+                        padding: 29% 3%;
+                        margin: auto;
+                        border: $fondo 1px solid;
                     }
                 }
             }

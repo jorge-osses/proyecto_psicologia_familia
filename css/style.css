@@ -1337,16 +1337,28 @@ ol {
   margin: 10px;
 }
 
-.tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a img {
+.tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a img, .tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a .fa-facebook-f {
   border-radius: 50%;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
-.tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a img:hover {
-  -webkit-box-shadow: 0px 0px 5px 5px #8f8f8f;
-          box-shadow: 0px 0px 5px 5px #8f8f8f;
-  border-color: #3000dd;
+.tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a img:hover, .tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a .fa-facebook-f:hover {
+  -webkit-box-shadow: 0px 0px 7px 7px #b3b3b3;
+          box-shadow: 0px 0px 7px 7px #b3b3b3;
+  border-color: #6a49e4;
+}
+
+.tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a .fa-facebook-f {
+  background-color: #6a49e4;
+  color: #fafafa;
+  font-size: 1.7em;
+  width: 63px;
+  height: 63px;
+  text-align: center;
+  padding: 29% 3%;
+  margin: auto;
+  border: #fafafa 1px solid;
 }
 
 .footerPreguntasFrecuentes {
