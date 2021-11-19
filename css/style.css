@@ -863,10 +863,11 @@ html {
 
 .mainBlogVideollamada .contenidoVideollamada .subtit {
   text-indent: 0%;
-  margin: 8% auto;
+  margin: 8% auto 2%;
   color: #6a49e4;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
+  font-size: 2rem;
 }
 
 .mainBlogVideollamada .contenidoVideollamada ul {
@@ -972,6 +973,37 @@ html {
   right: 0%;
   bottom: -22%;
   z-index: -1;
+}
+
+.headerBullyng {
+  width: 100%;
+  min-height: 95vh;
+  background-image: url(../img/bullyng.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerBullyng::before {
+  content: '';
+  width: 100%;
+  min-height: 95vh;
+  position: absolute;
+  background: black;
+  opacity: .3;
 }
 
 .headerPreguntasFrec {
