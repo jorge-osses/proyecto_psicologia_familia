@@ -369,6 +369,163 @@ html {
   z-index: -1;
 }
 
+.headerSobreMi {
+  width: 100%;
+  min-height: 95vh;
+  background-image: url("../img/headerSobremi.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerSobreMi .tituloHeaderSobreMi {
+  text-align: center;
+  z-index: 1;
+}
+
+.headerSobreMi .tituloHeaderSobreMi h1 {
+  color: #fafafa;
+  left: 50%;
+  top: 50%;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 5vw;
+}
+
+.headerSobreMi .botonHeaderSobreMi {
+  z-index: 1;
+  cursor: pointer;
+  width: 15%;
+  margin-top: 50px;
+  padding: 1%;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: solid #fafafa 3px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 1.9vw;
+  color: #fafafa;
+  text-align: center;
+  text-decoration: none;
+}
+
+.headerSobreMi .botonHeaderSobreMi:hover {
+  color: #6a49e4;
+  border: solid #6a49e4 3px;
+}
+
+.headerSobreMi::before {
+  content: '';
+  width: 100%;
+  min-height: 95vh;
+  position: absolute;
+  background: black;
+  opacity: .3;
+}
+
+.mainSobreMi {
+  margin: 0 auto;
+  position: relative;
+}
+
+.mainSobreMi .main_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainSobreMi .main_title h2 {
+  color: #6a49e4;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.mainSobreMi .contenedorSobreMi {
+  margin: 3% auto 10%;
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainSobreMi .contenedorSobreMi img {
+  width: 30vw;
+  float: left;
+  padding: 1%;
+}
+
+.mainSobreMi .contenedorSobreMi p {
+  color: #353535;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 2%;
+}
+
+.fondoImgSobreMi {
+  position: absolute;
+  right: 0;
+  bottom: -80%;
+  z-index: -1;
+}
+
+@media (max-width: 800px) {
+  .fondoImgSobreMi {
+    width: 60%;
+    position: absolute;
+    right: 0;
+    bottom: -30%;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 600px) {
+  .contenedorSobreMi p {
+    text-align: justify;
+    text-justify: auto;
+  }
+  p {
+    font-size: xx-small;
+  }
+}
+
 .headerServicios {
   width: 100%;
   min-height: 95vh;
@@ -483,7 +640,7 @@ html {
 }
 
 .contenedorCardServicios {
-  margin: 5% auto;
+  margin: 10% auto;
   width: 75%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -516,6 +673,16 @@ html {
 
 .contenedorCardServicios .cardServicios .img-card img {
   width: 100%;
+}
+
+.contenedorCardServicios .cardServicios .talleresImg {
+  padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
 }
 
 .contenedorCardServicios .cardServicios .contenido-card {
@@ -555,6 +722,22 @@ html {
 
 .contenedorCardServicios .cardServicios .contenido-card a:hover {
   border-bottom: solid 3px #6a49e4;
+}
+
+.contenedorCardServicios .cardServicios .talleres {
+  padding: 0%;
+}
+
+.contenedorCardServicios .cardServicios .talleres p {
+  width: 98%;
+  padding: 0 0 5px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.subtit {
+  margin: 0% auto 5%;
+  font-size: .7rem;
 }
 
 .titularesServicios {
@@ -868,10 +1051,11 @@ html {
 
 .mainBlogVideollamada .contenidoVideollamada .subtit {
   text-indent: 0%;
-  margin: 8% auto;
+  margin: 8% auto 2%;
   color: #6a49e4;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
+  font-size: 2rem;
 }
 
 .mainBlogVideollamada .contenidoVideollamada ul {
@@ -979,6 +1163,119 @@ html {
   z-index: -1;
 }
 
+.headerBullyng {
+  width: 100%;
+  min-height: 95vh;
+  background-image: url(../img/bullyng.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerBullyng::before {
+  content: '';
+  width: 100%;
+  min-height: 95vh;
+  position: absolute;
+  background: black;
+  opacity: .3;
+}
+
+.headerElDuelo {
+  width: 100%;
+  min-height: 95vh;
+  background-image: url(../img/duelo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerElDuelo::before {
+  content: '';
+  width: 100%;
+  min-height: 95vh;
+  position: absolute;
+  background: black;
+  opacity: .3;
+}
+
+.headerGrooming {
+  width: 100%;
+  min-height: 95vh;
+  background-image: url(../img/grooming_gral.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerGrooming::before {
+  content: '';
+  width: 100%;
+  min-height: 95vh;
+  position: absolute;
+  background: black;
+  opacity: .3;
+}
+
+#ulContent {
+  list-style-type: disc;
+  list-style-position: outside;
+  text-indent: 0%;
+  line-height: 3;
+}
+
+#ulContent li {
+  margin: 0%;
+}
+
+#no-indent {
+  text-indent: 0%;
+}
+
+ol {
+  line-height: 2;
+  list-style-type: decimal-leading-zero;
+}
+
 .headerPreguntasFrec {
   width: 100%;
   min-height: 95vh;
@@ -1012,7 +1309,7 @@ html {
   top: 50%;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  font-size: 3em;
+  font-size: 4vw;
 }
 
 .headerPreguntasFrec .botonHeaderPreguntasFrec {
@@ -1027,7 +1324,7 @@ html {
   border: solid #fafafa 3px;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  font-size: 1.3em;
+  font-size: 2.3vw;
   color: #fafafa;
   text-align: center;
   text-decoration: none;
@@ -1048,6 +1345,8 @@ html {
 }
 
 .path {
+  z-index: 10;
+  background-color: #fafafa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1228,16 +1527,28 @@ html {
   margin: 10px;
 }
 
-.tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a img {
+.tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a img, .tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a .fa-facebook-f {
   border-radius: 50%;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
-.tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a img:hover {
-  -webkit-box-shadow: 0px 0px 5px 5px #8f8f8f;
-          box-shadow: 0px 0px 5px 5px #8f8f8f;
-  border-color: #3000dd;
+.tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a img:hover, .tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a .fa-facebook-f:hover {
+  -webkit-box-shadow: 0px 0px 7px 7px #b3b3b3;
+          box-shadow: 0px 0px 7px 7px #b3b3b3;
+  border-color: #6a49e4;
+}
+
+.tarjetaContactoPregFrec .datosDeContactoPregFrec ul .itemContacto4 a .fa-facebook-f {
+  background-color: #6a49e4;
+  color: #fafafa;
+  font-size: 1.7em;
+  width: 63px;
+  height: 63px;
+  text-align: center;
+  padding: 29% 3%;
+  margin: auto;
+  border: #fafafa 1px solid;
 }
 
 .footerPreguntasFrecuentes {
@@ -1297,7 +1608,7 @@ html {
 
 .footerPreguntasFrecuentes .footerContent .izq {
   float: left;
-  width: 15%;
+  width: 20%;
   padding-left: 50px;
   margin-top: 50px;
   font-family: "Libre Franklin", sans-serif;
@@ -1308,10 +1619,12 @@ html {
 
 .footerPreguntasFrecuentes .footerContent .der {
   float: right;
-  width: 11%;
 }
 
 .footerPreguntasFrecuentes .footerContent .der ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   list-style: none;
 }
 
@@ -1340,6 +1653,116 @@ html {
 .footerPreguntasFrecuentes .copyright {
   padding: 30px;
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .datosDeContactoPregFrec {
+    background-color: #fafafa;
+    border: #b5a4f4 2px solid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .datosDeContactoPregFrec h3 {
+    margin-bottom: 10%;
+    font-family: "Aleo", serif;
+    font-weight: 400;
+    color: #6a49e4;
+  }
+  .datosDeContactoPregFrec ul {
+    list-style: none;
+  }
+  .datosDeContactoPregFrec ul li {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 300;
+    margin: 5%;
+  }
+  .datosDeContactoPregFrec ul li a {
+    font-size: 90%;
+    text-decoration: none;
+    color: inherit;
+  }
+  .datosDeContactoPregFrec ul li a:hover {
+    color: #6a49e4;
+  }
+  .datosDeContactoPregFrec ul .itemContacto4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .datosDeContactoPregFrec ul .itemContacto4 a {
+    margin: 10px;
+  }
+  .datosDeContactoPregFrec ul .itemContacto4 a img {
+    width: 80%;
+    border-radius: 50%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  .datosDeContactoPregFrec ul .itemContacto4 a img:hover {
+    -webkit-box-shadow: 0px 0px 7px 7px #b3b3b3;
+            box-shadow: 0px 0px 7px 7px #b3b3b3;
+    border-color: #6a49e4;
+  }
+  .acordeonPregFrec {
+    padding: 0;
+  }
+  .acordeon__titulo {
+    font-size: 90%;
+  }
+  .nav ul, .footerPreguntasFrecuentes .bar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fondoMainPregFrec {
+    width: 40%;
+  }
+  .tarjetaContactoPregFrec {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+  }
+  .tarjetaContactoPregFrec div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .tarjetaContactoPregFrec {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tarjetaContactoPregFrec div {
+    width: 100%;
+  }
+  .fondoMainPregFrec {
+    width: 80%;
+  }
+  .datosDeContactoPregFrec ul li a {
+    font-size: 80%;
+  }
 }
 
 .headerContacto {
@@ -1375,7 +1798,7 @@ html {
   top: 50%;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  font-size: 3em;
+  font-size: 5vw;
 }
 
 .headerContacto .botonHeaderContacto {
@@ -1390,7 +1813,7 @@ html {
   border: solid #fafafa 3px;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  font-size: 1.3em;
+  font-size: 1.8vw;
   color: #fafafa;
   text-align: center;
   text-decoration: none;
@@ -1452,7 +1875,7 @@ html {
 
 .contenedorformulario .formularioContacto input {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 23PX;
+  font-size: 18px;
   margin-bottom: 20px;
   width: 49%;
   height: 50px;
@@ -1475,7 +1898,7 @@ html {
 
 .contenedorformulario .formularioContacto textarea {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 23PX;
+  font-size: 18px;
   width: 100%;
   height: 150px;
   margin-bottom: 20px;
