@@ -1,0 +1,37 @@
+// ------------------- HEADER -------------------
+.contenedorTexto img{
+    position: relative;
+}
+
+.contenedorTexto{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20%;
+}
+
+.contenedorTexto p{
+    font-family: $LibreFranklin;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.contenedorTexto button{
+    font-family: $LibreFranklin;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 5px solid white;
+    color: white;
+    padding: 1%;
+    margin-top: 3%;
+}
+
+.fw{
+    font-weight: 400;
+}
