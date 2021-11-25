@@ -30,6 +30,14 @@ html{
 
 
 //------------------------------------ NavBar -------------------------------------------
+.menu{
+    width: 30px;
+    display: none;
+}
+
+input{
+    display: none;
+}
 
 .nav{
     width: 100%;
@@ -69,6 +77,35 @@ html{
             }
         }
     }
+}
+
+@media (max-width: 800px){
+    .nav{
+        z-index: 1; 
+        background-color: #ffff;   
+        .navMenu{
+            display: none;
+            li{
+                a{
+                    color:black !important;
+                }
+            }
+        }
+        
+        .nombre{
+            display: none;
+        }
+    }
+    
+    .menu{
+        display: block;
+        margin: 2%;
+    }
+    
+    #btn-menu:checked ~ .navMenu{
+        display: flex;
+    }
+  
 }
 
 
