@@ -235,3 +235,58 @@
     transform: translateY(-200px);
     z-index: -1;
 }
+
+//============== media querys ===============
+
+@media (max-width:800px){
+    //header
+    .contenedorIntro{
+        transform: translateY(130px);
+    }
+
+    .tituloIndex{
+        font-size: 1.2rem;
+    }
+
+    .subtituloIndex{
+        font-size: 2.5rem;
+    }
+
+    .img100{
+        height: 90vh;
+    }
+
+    //main
+    .contenedorMainIndex img{
+        width: 40%;
+        height: 60vh;
+        transform: translateY(40px);
+    }
+
+    //BLOG
+    .contenedorBlogIndex1 img{
+        width: 40%;
+        height: 30vh;
+        transform: translateY(40px);
+    }
+
+    .contenedorBlogIndex2{
+        width: 40%;
+        height: 30vh;
+        transform: translateY(-10px);
+        margin-bottom: 300px;
+    }
+    .contenedorBlogIndex2 div{
+        width: 400px;
+        margin: 0 0 0 2%;
+        
+    }
+
+    .contenedorBlogIndex2{
+        width: 100%;
+        
+    }
+    .contenedorBlogIndex2 img{
+        transform: translateY(50px);  
+    }
+}
