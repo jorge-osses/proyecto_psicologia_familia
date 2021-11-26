@@ -357,6 +357,23 @@ input {
   margin: 0 5%;
 }
 
+.contenedorBloxMuestra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10%;
+}
+
 .contenedorBlogIndex1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -365,7 +382,7 @@ input {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  margin: 5% 10%;
+  margin-bottom: 10%;
 }
 
 .contenedorBlogIndex1 div {
@@ -392,6 +409,10 @@ input {
   font-size: 1.1rem;
 }
 
+.contenedorBlogIndex2 img {
+  width: 30%;
+}
+
 .contenedorBlogIndex2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -400,7 +421,8 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 10% 10%;
+  margin: 5% 10%;
+  width: 100% !important;
 }
 
 .contenedorBlogIndex2 div {
@@ -446,18 +468,52 @@ input {
     height: 30vh;
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px);
-    margin-bottom: 300px;
-  }
-  .contenedorBlogIndex2 div {
-    width: 400px;
-    margin: 0 0 0 2%;
-  }
-  .contenedorBlogIndex2 {
-    width: 100%;
   }
   .contenedorBlogIndex2 img {
     -webkit-transform: translateY(50px);
             transform: translateY(50px);
+  }
+  .contenedorBloxMuestra {
+    margin-bottom: 30%;
+  }
+  .bar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .item {
+    display: none;
+  }
+  .footerContent p {
+    display: none;
+  }
+  .der {
+    float: none;
+  }
+  .der ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin-top: 5%;
+  }
+  .der ul li {
+    width: 130px;
   }
 }
 
