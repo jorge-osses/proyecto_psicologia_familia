@@ -260,6 +260,7 @@
             ul{
                 display: flex;
                 list-style: none;
+                justify-content: space-between;
                 li{
                     line-height: 2em;
                     font-size: 18px;              
@@ -342,7 +343,7 @@
         font-size: 90%;
     }
     //borrar nav y footer//
-    .nav ul, .footerPreguntasFrecuentes .bar ul{
+    .nav ul{
         display:flex;
         flex-direction: column;
     }

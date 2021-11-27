@@ -308,24 +308,30 @@
         display: none;
     }
 
-    .footerContent p{
-        display: none;
+    .footerContent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5%;
+        p{
+            display: none;
+        }
+        .der{
+            width: 80%;
+            ul{
+                justify-content: space-around;
+                margin-top: 5%;
+                a{
+                    font-size: 1.4rem;
+                }
+            }
+        } 
     }
 
     .der{
         float: none;
-    }
-
-    .der ul{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
         
-        margin-top: 5%;
     }
-
-    .der ul li{
-        width: 130px;
-    }
-  
+    
+ 
 }
