@@ -19,14 +19,14 @@
             top: 50%;
             font-family: $LibreFranklin;
             font-weight: 400;
-            font-size: 4vw;
+            font-size: 2.5rem;
 
         }
     }
     .botonHeaderPreguntasFrec {
         z-index: 1;
         cursor: pointer;
-        width: 15%;
+        width: 150px;
         margin-top: 50px;
         padding: 1%;
         background-color: transparent;
@@ -34,7 +34,7 @@
         border:solid $fondo 3px;
         font-family: $LibreFranklin;
         font-weight: 400;
-        font-size: 2.3vw;
+        font-size: 1.3rem;
         color: $fondo;
         text-align: center;
         text-decoration: none;
@@ -77,6 +77,7 @@
         h2{
             color: $acentuacion;
             font-family: $aleo;
+            text-align: center;
             font-weight: 400;
             font-size: 30px;
             margin-bottom: 100px;
@@ -86,7 +87,7 @@
 .fondoMainPregFrec{
     position:absolute;
     right: -16.7%; 
-    bottom:-70%; 
+    bottom: -500px; 
     z-index: -1;
 }
 //===acordeon de preguntas====//
@@ -107,7 +108,7 @@
     font-family: $LibreFranklin;
     font-weight: 400;
     padding: 15px;
-    font-size: 20px;
+    font-size: 1rem;
     border-top: 1px #B5A4F44D solid;
     i{
         color: $gris;
@@ -339,18 +340,14 @@
     .acordeonPregFrec{
         padding: 0;
     }
-    .acordeon__titulo{
-        font-size: 90%;
-    }
+    
     //borrar nav y footer//
     .nav ul{
         display:flex;
         flex-direction: column;
     }
     //////////////////////
-    .fondoMainPregFrec{
-        width: 40%;
-    }
+   
     .tarjetaContactoPregFrec {
         flex-direction: column;
         margin: auto;
@@ -368,9 +365,7 @@
             width: 100%;
         }
     }
-    .fondoMainPregFrec{
-        width: 80%;
-    }
+    
     .datosDeContactoPregFrec ul li a{
         font-size: 80%;
     }

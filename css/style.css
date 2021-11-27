@@ -1047,6 +1047,7 @@ html {
 .mainBlog .main_title h2 {
   color: #6a49e4;
   font-family: "Aleo", serif;
+  text-align: center;
   font-weight: 400;
   font-size: 30px;
   margin-bottom: 100px;
@@ -1142,7 +1143,7 @@ html {
 .fondoBlog {
   position: absolute;
   right: 0%;
-  bottom: -40%;
+  bottom: -500px;
   z-index: -1;
 }
 
@@ -1478,13 +1479,13 @@ ol {
   top: 50%;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  font-size: 4vw;
+  font-size: 2.5rem;
 }
 
 .headerPreguntasFrec .botonHeaderPreguntasFrec {
   z-index: 1;
   cursor: pointer;
-  width: 15%;
+  width: 150px;
   margin-top: 50px;
   padding: 1%;
   background-color: transparent;
@@ -1493,7 +1494,7 @@ ol {
   border: solid #fafafa 3px;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  font-size: 2.3vw;
+  font-size: 1.3rem;
   color: #fafafa;
   text-align: center;
   text-decoration: none;
@@ -1553,6 +1554,7 @@ ol {
 .mainPreguntasFrec .main_title h2 {
   color: #6a49e4;
   font-family: "Aleo", serif;
+  text-align: center;
   font-weight: 400;
   font-size: 30px;
   margin-bottom: 100px;
@@ -1561,7 +1563,7 @@ ol {
 .fondoMainPregFrec {
   position: absolute;
   right: -16.7%;
-  bottom: -70%;
+  bottom: -500px;
   z-index: -1;
 }
 
@@ -1585,7 +1587,7 @@ ol {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
   padding: 15px;
-  font-size: 20px;
+  font-size: 1rem;
   border-top: 1px #B5A4F44D solid;
 }
 
@@ -1892,9 +1894,6 @@ ol {
   .acordeonPregFrec {
     padding: 0;
   }
-  .acordeon__titulo {
-    font-size: 90%;
-  }
   .nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1903,9 +1902,6 @@ ol {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .fondoMainPregFrec {
-    width: 40%;
   }
   .tarjetaContactoPregFrec {
     -webkit-box-orient: vertical;
@@ -1928,9 +1924,6 @@ ol {
   }
   .tarjetaContactoPregFrec div {
     width: 100%;
-  }
-  .fondoMainPregFrec {
-    width: 80%;
   }
   .datosDeContactoPregFrec ul li a {
     font-size: 80%;
@@ -1970,13 +1963,13 @@ ol {
   top: 50%;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  font-size: 5vw;
+  font-size: 2.5rem;
 }
 
 .headerContacto .botonHeaderContacto {
   z-index: 1;
   cursor: pointer;
-  width: 15%;
+  width: 150px;
   margin-top: 50px;
   padding: 1%;
   background-color: transparent;
@@ -1985,7 +1978,7 @@ ol {
   border: solid #fafafa 3px;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  font-size: 1.8vw;
+  font-size: 1.3rem;
   color: #fafafa;
   text-align: center;
   text-decoration: none;

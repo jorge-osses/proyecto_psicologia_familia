@@ -63,6 +63,7 @@
         h2{
             color: $acentuacion;
             font-family: $aleo;
+            text-align: center;
             font-weight: 400;
             font-size: 30px;
             margin-bottom: 100px;
@@ -135,7 +136,7 @@
 .fondoBlog {
     position: absolute;
     right: 0%;
-    bottom: -40%;
+    bottom: -500px;
     z-index: -1;
 }
 
