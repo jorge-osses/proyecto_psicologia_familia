@@ -152,6 +152,7 @@
             flex-direction: column;
             align-items: center;
             .card{
+                border-top: solid $lilaPpal 1px;
                 width: 75%;
             }
         }

@@ -142,3 +142,27 @@
 
 @import "videollamada";
 @import "bullyng";
+
+@media (max-width: 800px) {
+    .mainBlog{
+        .contenedorBlog{
+            .card{
+                margin: 0 auto;
+                flex-direction: column;
+                .img-card{
+                    width: 100%;
+                }
+                .contenido-card{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 600px) {
+    .mainBlog{
+        .contenedorBlog{
+            width: 95%;
+        }
+    }
+}
