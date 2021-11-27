@@ -335,3 +335,51 @@
     
  
 }
+
+@media (max-width:550px){
+    // HEADER
+    .navMenu li a{
+        font-size: 15px !important;
+    }
+
+    .img100{
+        height: 60vh;
+    }
+
+    .imgHeaderIndex{
+        display: none;
+    }
+
+    // servicios
+    .contenedorMainIndex{
+        margin-top: 10%;
+    }
+
+    .contenedorMainIndex img{
+        display: none;
+    }
+
+    .contenedorBlogIndex1 img{
+        display: none;
+    }
+
+    .tituloBlogIndex{
+        font-size: 1rem;
+    }
+
+    .parrafoBlogIndex{
+        font-size: 0.8rem;
+    }
+
+    .contenedorBlogIndex2 img{
+        display: none;
+    }
+
+    .contenedorBlogIndex2 div{
+        margin-left: 0;
+    }
+
+    .flechaArriba{
+        width: 16%;
+    }
+}
