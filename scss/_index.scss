@@ -335,3 +335,32 @@
     
  
 }
+
+@media (max-width:550px){
+    // HEADER
+
+    .img100{
+        height: 60vh;
+    }
+
+    .imgHeaderIndex{
+        display: none;
+    }
+
+    // servicios
+    .contenedorMainIndex{
+        margin-top: 10%;
+    }
+
+    .contenedorMainIndex img{
+        display: none;
+    }
+
+    .contenedorBlogIndex1 img{
+        display: none;
+    }
+
+    .contenedorBlogIndex2 img{
+        display: none;
+    }
+}

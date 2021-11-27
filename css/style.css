@@ -19,7 +19,7 @@ html {
   width: 100%;
 }
 
-.nav input {
+.nav .imputMenu {
   display: none;
 }
 
@@ -525,6 +525,27 @@ html {
   }
   .der {
     float: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .img100 {
+    height: 60vh;
+  }
+  .imgHeaderIndex {
+    display: none;
+  }
+  .contenedorMainIndex {
+    margin-top: 10%;
+  }
+  .contenedorMainIndex img {
+    display: none;
+  }
+  .contenedorBlogIndex1 img {
+    display: none;
+  }
+  .contenedorBlogIndex2 img {
+    display: none;
   }
 }
 
@@ -2151,3 +2172,4 @@ ol {
     height: 100px;
   }
 }
+/*# sourceMappingURL=style.css.map */
