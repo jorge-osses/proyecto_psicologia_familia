@@ -27,7 +27,7 @@
             color: $acentuacion;
             font-family: $aleo;
             font-weight: 700;
-            font-size: 2.5em;
+            font-size: 2.3em;
             margin: 1em;
         }
     }
@@ -37,20 +37,19 @@
         h2{
             font-family: $LibreFranklin;
             font-weight: 400;
-            text-align: justify;
+            text-align: center;
             text-indent: 8%;
         }
         p{
             margin: 3% auto;
             font-family: $LibreFranklin;
             font-weight: 300;
-            text-align: justify;
             text-indent: 8%;
             small{
                 color: $acentuacion;
                 font-family: inherit;
                 font-weight: 500;
-                font-size: 1.2em;
+                font-size: 1.125em;
             }
         }
         .subtit{
@@ -140,7 +139,38 @@
     .fondoVideollamada{
         position: absolute;
         right: 0%;
-        bottom: -22%;
+        bottom: -500px;
         z-index: -1;
+    }
+}
+@media (max-width: 800px) {
+    .mainBlogVideollamada{
+        .contenidoVideollamada{
+            width: 85%;
+        }
+        .cardsBlog{
+            flex-direction: column;
+            align-items: center;
+            .card{
+                width: 75%;
+            }
+        }
+
+    }
+}
+@media (max-width: 600px) {
+    .mainBlogVideollamada{
+        .contenidoVideollamada{
+            width: 95%;
+            p{
+                font-size: 1rem;
+            }
+        }
+        .cardsBlog{
+            .card{
+                width: 85%;
+            }
+        }
+
     }
 }

@@ -1188,7 +1188,7 @@ html {
   color: #6a49e4;
   font-family: "Aleo", serif;
   font-weight: 700;
-  font-size: 2.5em;
+  font-size: 2.3em;
   margin: 1em;
 }
 
@@ -1200,7 +1200,7 @@ html {
 .mainBlogVideollamada .contenidoVideollamada h2 {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  text-align: justify;
+  text-align: center;
   text-indent: 8%;
 }
 
@@ -1208,7 +1208,6 @@ html {
   margin: 3% auto;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  text-align: justify;
   text-indent: 8%;
 }
 
@@ -1216,7 +1215,7 @@ html {
   color: #6a49e4;
   font-family: inherit;
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: 1.125em;
 }
 
 .mainBlogVideollamada .contenidoVideollamada .subtit {
@@ -1329,8 +1328,38 @@ html {
 .mainBlogVideollamada .fondoVideollamada {
   position: absolute;
   right: 0%;
-  bottom: -22%;
+  bottom: -500px;
   z-index: -1;
+}
+
+@media (max-width: 800px) {
+  .mainBlogVideollamada .contenidoVideollamada {
+    width: 85%;
+  }
+  .mainBlogVideollamada .cardsBlog {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainBlogVideollamada .cardsBlog .card {
+    width: 75%;
+  }
+}
+
+@media (max-width: 600px) {
+  .mainBlogVideollamada .contenidoVideollamada {
+    width: 95%;
+  }
+  .mainBlogVideollamada .contenidoVideollamada p {
+    font-size: 1rem;
+  }
+  .mainBlogVideollamada .cardsBlog .card {
+    width: 85%;
+  }
 }
 
 .headerBullyng {
