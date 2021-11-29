@@ -97,6 +97,10 @@
     align-items: center;
 }
 
+.contenedorFilaHeaderIndex p{
+    font-size: $chica;
+}
+
 .icoVerde{
     width: 10%;
     margin-right: 3%;
@@ -121,7 +125,7 @@
     margin: 0 5%;
     margin-bottom: 8%;
     font-family: $LibreFranklin;
-    font-size: 1.2rem;
+    font-size: $chica;
 }
 
 .letraVioleta{
@@ -211,7 +215,7 @@
 
 .tituloBlogIndex{
     font-family: $LibreFranklin;
-    font-size: 1.3rem;
+    font-size: $mediana;
     margin-bottom: 8%;
 }
 
@@ -226,7 +230,7 @@
 .parrafoBlogIndex{
     font-family: $LibreFranklin;
     margin-bottom: 8%;
-    font-size: 1.1rem;
+    font-size: $chica;
 }
 
 .contenedorBlogIndex2 img{

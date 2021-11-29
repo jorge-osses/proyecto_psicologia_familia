@@ -79,18 +79,20 @@
 }
 
 .contenedorCardServicios{
-    margin: 10% auto;
-    width: 75%;
+    margin: 10% 5%;
+    width: 80%;
     align-items: center;
     justify-content: center;
     .cardServicios {
         display: flex;
         justify-content: center;
         .img-card{
-            width: 50%;
+            width: 40%;
             padding: 2.5%;
             img{
-                width: 100%;
+                margin-top: 15%;
+                width: 120%;
+                height: 70vh;
             }
         }
         .talleresImg{
@@ -104,17 +106,15 @@
             h1{
                 color: $acentuacion;
                 font-family: $aleo;
-                font-weight: 700;
-                font-size: 23px;
+                font-weight: 500;
+                font-size: 1.5rem;
+                margin-bottom: 5%;
             }
             p{
                 color: $gris;
-                width: 85%;
+                width: 95%;
                 font-family: $LibreFranklin;
-                font-weight: 300;
-                font-size: 18px;
-                line-height: 21.82px;
-                padding: 0 0 20% 0;
+                font-size: $chica;
             }
             a{
                 text-decoration: none;
@@ -123,6 +123,7 @@
                 font-weight: 400;
                 font-size: 20px;
                 line-height: 24.24px;
+                
                 i{
                     padding-left: 30px;
                 }
@@ -131,15 +132,7 @@
                 }
             }
         }
-        .talleres{
-            padding: 0%;
-            p{
-                width: 95%;
-                padding: 0 0 5px;
-                font-size: 14px;
-                text-align: justify;
-            }
-        }
+       
     }
 }
 .subtit{
@@ -158,13 +151,13 @@
             color: $acentuacion;
             font-family: $aleo;
             font-weight: 400;
-            font-size: px;
+            font-size: $mediana;
         }
         p{
             color: #4d4d4d;
             font-family: $LibreFranklin;
             font-weight: 300;
-            font-size: 18px;
+            font-size: $chica;
         }
     }
     border-bottom: 1px solid rgba(247, 183, 210, 0.3);

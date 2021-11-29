@@ -235,6 +235,10 @@ html {
           align-items: center;
 }
 
+.contenedorFilaHeaderIndex p {
+  font-size: 1.1rem;
+}
+
 .icoVerde {
   width: 10%;
   margin-right: 3%;
@@ -265,7 +269,7 @@ html {
   margin: 0 5%;
   margin-bottom: 8%;
   font-family: "Libre Franklin", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .letraVioleta {
@@ -405,7 +409,7 @@ html {
 
 .tituloBlogIndex {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-bottom: 8%;
 }
 
@@ -691,7 +695,7 @@ html {
   color: #353535;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1.1rem;
   line-height: 2;
   padding: 2%;
 }
@@ -840,8 +844,8 @@ html {
 }
 
 .contenedorCardServicios {
-  margin: 10% auto;
-  width: 75%;
+  margin: 10% 5%;
+  width: 80%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -860,12 +864,14 @@ html {
 }
 
 .contenedorCardServicios .cardServicios .img-card {
-  width: 50%;
+  width: 40%;
   padding: 2.5%;
 }
 
 .contenedorCardServicios .cardServicios .img-card img {
-  width: 100%;
+  margin-top: 15%;
+  width: 120%;
+  height: 70vh;
 }
 
 .contenedorCardServicios .cardServicios .talleresImg {
@@ -886,18 +892,16 @@ html {
 .contenedorCardServicios .cardServicios .contenido-card h1 {
   color: #6a49e4;
   font-family: "Aleo", serif;
-  font-weight: 700;
-  font-size: 23px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 5%;
 }
 
 .contenedorCardServicios .cardServicios .contenido-card p {
   color: #353535;
-  width: 85%;
+  width: 95%;
   font-family: "Libre Franklin", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21.82px;
-  padding: 0 0 20% 0;
+  font-size: 1.1rem;
 }
 
 .contenedorCardServicios .cardServicios .contenido-card a {
@@ -915,17 +919,6 @@ html {
 
 .contenedorCardServicios .cardServicios .contenido-card a:hover {
   border-bottom: solid 3px #6a49e4;
-}
-
-.contenedorCardServicios .cardServicios .talleres {
-  padding: 0%;
-}
-
-.contenedorCardServicios .cardServicios .talleres p {
-  width: 95%;
-  padding: 0 0 5px;
-  font-size: 14px;
-  text-align: justify;
 }
 
 .subtit {
@@ -950,14 +943,14 @@ html {
   color: #6a49e4;
   font-family: "Aleo", serif;
   font-weight: 400;
-  font-size: px;
+  font-size: 1.5rem;
 }
 
 .titularesServicios .titServicios p {
   color: #4d4d4d;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .path-servicios {
@@ -1178,14 +1171,14 @@ html {
   color: #6a49e4;
   font-family: "Aleo", serif;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 1.5rem;
 }
 
 .mainBlog .contenedorBlog .card .contenido-card p {
   color: #353535;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.1rem;
   line-height: 21.82px;
   padding: 10% 0;
 }
@@ -2153,7 +2146,7 @@ ol {
 
 .contenedorformulario p {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 23PX;
+  font-size: 1.1rem;
   text-align: center;
   padding: 4%;
 }
