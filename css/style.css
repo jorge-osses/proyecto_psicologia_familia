@@ -388,6 +388,10 @@ html {
   margin-bottom: 10%;
 }
 
+.contenedorBlogIndex1 img {
+  width: 40%;
+}
+
 .contenedorBlogIndex1 div {
   margin-right: 10%;
 }
@@ -413,7 +417,7 @@ html {
 }
 
 .contenedorBlogIndex2 img {
-  width: 30%;
+  width: 40%;
 }
 
 .contenedorBlogIndex2 {
@@ -597,7 +601,7 @@ html {
   top: 50%;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .headerSobreMi::before {
@@ -705,6 +709,9 @@ html {
   p {
     font-size: xx-small;
   }
+  .contenedorSobreMi div img {
+    width: 100vw;
+  }
 }
 
 .headerServicios {
@@ -740,7 +747,7 @@ html {
   top: 50%;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 .headerServicios .botonHeaderServicios {
@@ -959,11 +966,15 @@ html {
 
 @media (max-width: 800px) {
   .iconosServicios {
-    width: 95%;
+    width: 70%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
   }
   .iconosServicios .divIcn {
     display: block;
-    width: 40%;
+    width: 20%;
   }
   .iconosServicios .divIcn h4 {
     display: none;
@@ -975,6 +986,7 @@ html {
   }
   .contenedorCardServicios {
     width: 100%;
+    margin: 10% 0;
   }
   .contenedorCardServicios .cardServicios {
     -webkit-box-orient: vertical;
@@ -991,6 +1003,9 @@ html {
     text-align: center;
     width: 95%;
     margin: 0 auto;
+  }
+  .contenedorCardServicios .cardServicios .contenido-card p {
+    padding: 5% 20%;
   }
 }
 
@@ -1027,11 +1042,11 @@ html {
   top: 50%;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
-  font-size: 3.2em;
+  font-size: 3.2rem;
 }
 
 .headerBlog .tituloHeaderBlog h2 {
-  font-size: 2em;
+  font-size: 2.5rem;
 }
 
 .headerBlog .botonHeaderBlog {
@@ -1181,6 +1196,15 @@ html {
   right: 0%;
   bottom: -500px;
   z-index: -1;
+}
+
+@media (max-width: 700px) {
+  .img-card {
+    display: none;
+  }
+  .contenido-card {
+    width: 100% !important;
+  }
 }
 
 .headerVideollamada {
