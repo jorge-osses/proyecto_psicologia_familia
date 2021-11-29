@@ -547,8 +547,12 @@ html {
   .navMenu li a {
     font-size: 15px !important;
   }
+  .contenedorIntro {
+    -webkit-transform: translateY(70px);
+            transform: translateY(70px);
+  }
   .img100 {
-    height: 60vh;
+    height: 45vh;
   }
   .imgHeaderIndex {
     display: none;
@@ -566,7 +570,7 @@ html {
     font-size: 1rem;
   }
   .parrafoBlogIndex {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
   .contenedorBlogIndex2 img {
     display: none;
@@ -1011,6 +1015,19 @@ html {
   .contenedorCardServicios .cardServicios .img-card {
     margin: 0 auto;
     width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedorCardServicios .cardServicios .img-card img {
+    width: 70%;
+    height: 45vh;
   }
   .contenedorCardServicios .cardServicios .contenido-card {
     text-align: center;

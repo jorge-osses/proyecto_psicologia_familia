@@ -350,8 +350,12 @@
         font-size: 15px !important;
     }
 
+    .contenedorIntro{
+        transform: translateY(70px);
+    }
+
     .img100{
-        height: 60vh;
+        height: 45vh;
     }
 
     .imgHeaderIndex{
@@ -376,7 +380,7 @@
     }
 
     .parrafoBlogIndex{
-        font-size: 0.8rem;
+        font-size: $chica;
     }
 
     .contenedorBlogIndex2 img{
