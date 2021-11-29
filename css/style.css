@@ -60,6 +60,7 @@ html {
 .nav ul li {
   height: 100%;
   padding: 31px;
+  text-align: center;
   list-style: none;
 }
 
@@ -1406,6 +1407,7 @@ html {
             align-items: center;
   }
   .mainBlogVideollamada .cardsBlog .card {
+    border-top: solid #b5a4f4 1px;
     width: 75%;
   }
 }
@@ -1533,6 +1535,28 @@ html {
 ol {
   line-height: 2;
   list-style-type: decimal-leading-zero;
+}
+
+@media (max-width: 800px) {
+  .mainBlog .contenedorBlog .card {
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mainBlog .contenedorBlog .card .img-card {
+    width: 100%;
+  }
+  .mainBlog .contenedorBlog .card .contenido-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .mainBlog .contenedorBlog {
+    width: 95%;
+  }
 }
 
 .headerPreguntasFrec {
@@ -2090,19 +2114,20 @@ ol {
 #mainContacto {
   width: 100%;
   position: relative;
-  min-height: 120vh;
+  height: 100%;
+  padding-bottom: 50px;
 }
 
 #mainContacto .fondoMainContacto {
   position: absolute;
   right: 0%;
-  bottom: -50%;
+  bottom: -500px;
   z-index: -1;
 }
 
 .contenedorformulario {
   border: solid 2px #6a49e4;
-  height: 80vh;
+  height: 100%;
   width: 85%;
   margin: auto;
 }
@@ -2129,7 +2154,8 @@ ol {
 
 .contenedorformulario .formularioContacto input {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 18px;
+  padding-left: 5px;
+  font-size: 1rem;
   margin-bottom: 20px;
   width: 49%;
   height: 50px;
@@ -2152,7 +2178,8 @@ ol {
 
 .contenedorformulario .formularioContacto textarea {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 18px;
+  padding: 5px;
+  font-size: 1rem;
   width: 100%;
   height: 150px;
   margin-bottom: 20px;
@@ -2171,9 +2198,9 @@ ol {
 
 .contenedorformulario .formularioContacto button {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 23px;
+  font-size: 1.2rem;
   color: #6a49e4;
-  width: 40%;
+  width: 200px;
   margin: 10px auto;
   border: none;
   background-color: inherit;
