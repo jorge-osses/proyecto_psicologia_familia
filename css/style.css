@@ -577,11 +577,11 @@ html {
     width: 30%;
   }
   .imgGrande {
-    width: 130%;
+    width: 80%;
     z-index: 2;
   }
   .imgChica {
-    width: 100%;
+    display: none;
   }
   .flechaCarrusel {
     font-size: 2rem;
