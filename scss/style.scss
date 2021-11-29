@@ -124,7 +124,13 @@ html{
         margin: 5% auto;
     }
 
-   
+   .active{
+       border-top: none !important;
+   }
+
+   .active a{
+       color: $lilaPpal !important;
+   }
     
 }
 
